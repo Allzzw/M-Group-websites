@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allzzw.github.io/M-Group-websites/sitemap.xml
