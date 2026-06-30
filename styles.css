@@ -896,6 +896,10 @@ html[data-current-lang="en"] .w-mineral {
   gap: 14px;
 }
 
+.team-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .project-card,
 .team-card,
 .event-card {
@@ -1176,10 +1180,13 @@ address a {
 
   .research-grid,
   .project-grid,
-  .team-grid,
   .team-group,
   .member-list {
     grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .event-grid {
@@ -1371,6 +1378,10 @@ address a {
   .project-grid,
   .team-grid {
     gap: 12px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
   }
 
   .research-card,
