@@ -897,7 +897,8 @@ html[data-current-lang="en"] .w-mineral {
 }
 
 .team-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .project-card,
@@ -908,6 +909,10 @@ html[data-current-lang="en"] .w-mineral {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
+}
+
+.team-grid > .team-card {
+  padding: 20px;
 }
 
 .event-card {
