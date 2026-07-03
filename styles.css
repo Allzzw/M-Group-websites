@@ -896,6 +896,11 @@ html[data-current-lang="en"] .w-mineral {
   gap: 14px;
 }
 
+.team-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
 .project-card,
 .team-card,
 .event-card {
@@ -904,6 +909,10 @@ html[data-current-lang="en"] .w-mineral {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
+}
+
+.team-grid > .team-card {
+  padding: 20px;
 }
 
 .event-card {
@@ -1006,6 +1015,18 @@ html[data-current-lang="en"] .w-mineral {
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--metal-pale);
+}
+
+.member-avatar {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 72px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--cc-gradient);
+  color: #fff;
+  font-weight: 900;
 }
 
 .member strong,
@@ -1176,10 +1197,13 @@ address a {
 
   .research-grid,
   .project-grid,
-  .team-grid,
   .team-group,
   .member-list {
     grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .event-grid {
@@ -1371,6 +1395,10 @@ address a {
   .project-grid,
   .team-grid {
     gap: 12px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
   }
 
   .research-card,
