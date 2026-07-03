@@ -1017,6 +1017,18 @@ html[data-current-lang="en"] .w-mineral {
   background: var(--metal-pale);
 }
 
+.member-avatar {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 72px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--cc-gradient);
+  color: #fff;
+  font-weight: 900;
+}
+
 .member strong,
 .member span {
   display: block;
