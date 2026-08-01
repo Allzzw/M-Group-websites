@@ -901,6 +901,143 @@ html[data-current-lang="en"] .w-mineral {
   gap: 14px;
 }
 
+.event-timeline {
+  display: grid;
+  gap: 30px;
+}
+
+.timeline-month {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+.timeline-month-marker {
+  position: sticky;
+  top: 96px;
+  display: grid;
+  gap: 4px;
+  padding-top: 2px;
+}
+
+.timeline-year {
+  color: var(--metal-dark);
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.timeline-month-name {
+  color: var(--metal);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.timeline-month-content {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+}
+
+.timeline-month-content::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -6px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid var(--white);
+  border-radius: 999px;
+  background: var(--metal-dark);
+  box-shadow: 0 0 0 1px var(--metal-dark);
+}
+
+.timeline-event-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.timeline-event-grid .event-card.wide {
+  grid-column: span 2;
+}
+
+.member-update {
+  border: 1px solid rgba(255, 159, 28, 0.36);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 159, 28, 0.1), rgba(255, 47, 134, 0.05)),
+    var(--white);
+}
+
+.member-update summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding: 10px 14px;
+  color: var(--metal-dark);
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 850;
+  list-style: none;
+}
+
+.member-update summary::-webkit-details-marker {
+  display: none;
+}
+
+.member-update summary::after {
+  content: "+";
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--metal);
+  font-size: 0.9rem;
+  line-height: 1;
+  background: var(--white);
+}
+
+.member-update[open] summary::after {
+  content: "-";
+}
+
+.member-update-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0 14px 14px;
+  list-style: none;
+}
+
+.member-update-list li {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 10px;
+  padding: 10px 0 0;
+  border-top: 1px solid rgba(216, 221, 226, 0.7);
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.member-update-list time {
+  color: var(--metal);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
 .project-card,
 .team-card,
 .event-card {
@@ -1198,6 +1335,14 @@ address a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .timeline-event-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .timeline-event-grid .event-card.wide {
+    grid-column: span 2;
+  }
+
   .collaboration-list article {
     grid-template-columns: 1fr;
     gap: 8px;
@@ -1481,6 +1626,38 @@ address a {
 
   .event-grid {
     grid-template-columns: 1fr;
+  }
+
+  .event-timeline {
+    gap: 24px;
+  }
+
+  .timeline-month {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .timeline-month-marker {
+    position: static;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding-top: 0;
+  }
+
+  .timeline-month-content {
+    padding-left: 16px;
+  }
+
+  .timeline-event-grid,
+  .timeline-event-grid .event-card.wide {
+    grid-template-columns: 1fr;
+    grid-column: auto;
+  }
+
+  .member-update-list li {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .event-photo {
