@@ -999,11 +999,9 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
 }
 
 .member-update {
-  border: 1px solid rgba(255, 159, 28, 0.36);
+  border: 1px solid rgba(143, 152, 163, 0.58);
   border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(255, 159, 28, 0.1), rgba(255, 47, 134, 0.05)),
-    var(--white);
+  background: var(--metal-pale);
 }
 
 .member-update summary {
@@ -1056,7 +1054,7 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
   grid-template-columns: 96px minmax(0, 1fr);
   gap: 10px;
   padding: 10px 0 0;
-  border-top: 1px solid rgba(216, 221, 226, 0.7);
+  border-top: 1px solid rgba(143, 152, 163, 0.24);
   color: var(--muted);
   font-size: 0.82rem;
   line-height: 1.55;
