@@ -839,6 +839,36 @@ html[data-current-lang="en"] .w-mineral {
   font-weight: 800;
 }
 
+.publication-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 4px 0 16px;
+  color: var(--metal);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+html[data-current-lang="zh"] .publication-divider[data-lang="zh"],
+html[data-current-lang="en"] .publication-divider[data-lang="en"] {
+  display: flex;
+}
+
+.publication-divider::before,
+.publication-divider::after {
+  content: "";
+  height: 1px;
+  background: var(--line);
+}
+
+.publication-divider::before {
+  width: 28px;
+}
+
+.publication-divider::after {
+  flex: 1;
+}
+
 .publication-list strong,
 .source-note strong {
   color: var(--ink);
