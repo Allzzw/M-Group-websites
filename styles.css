@@ -268,6 +268,75 @@ h3 {
   margin-top: 24px;
 }
 
+.recent-updates {
+  padding: 0 clamp(20px, 7vw, 92px);
+  border-bottom: 1px solid var(--line);
+  background: var(--white);
+}
+
+.recent-updates-inner {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr) auto;
+  gap: 20px;
+  align-items: center;
+  min-height: 68px;
+}
+
+.recent-updates-label {
+  margin: 0;
+  color: var(--metal-dark);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.recent-update-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.recent-update-list li {
+  display: flex;
+  min-width: 0;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.recent-update-list time {
+  flex: 0 0 auto;
+  color: var(--metal);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.recent-update-list a,
+.recent-updates-link {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.recent-update-list a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recent-update-list a:hover,
+.recent-updates-link:hover {
+  color: var(--metal-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.recent-updates-link {
+  white-space: nowrap;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -1348,6 +1417,16 @@ address a {
     min-height: auto;
   }
 
+  .recent-updates-inner {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 16px 0;
+  }
+
+  .recent-updates-link {
+    justify-self: start;
+  }
+
   .research-grid,
   .project-grid,
   .team-group,
@@ -1385,6 +1464,7 @@ address a {
   .site-header,
   .section,
   .hero,
+  .recent-updates,
   .site-footer {
     padding-right: 18px;
     padding-left: 18px;
@@ -1446,6 +1526,11 @@ address a {
     gap: 22px;
     padding-top: 34px;
     padding-bottom: 38px;
+  }
+
+  .recent-update-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .eyebrow,
