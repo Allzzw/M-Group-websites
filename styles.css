@@ -1024,7 +1024,7 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
 }
 
 .team-grid {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -1175,6 +1175,14 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
 
 .team-grid > .team-card {
   padding: 20px;
+}
+
+.team-grid > .team-card:nth-child(-n + 2) {
+  grid-column: span 3;
+}
+
+.team-grid > .team-card:nth-child(n + 3):nth-child(-n + 5) {
+  grid-column: span 2;
 }
 
 .event-card {
@@ -1464,6 +1472,10 @@ address a {
 
   .team-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team-grid > .team-card:nth-child(n) {
+    grid-column: span 1;
   }
 
   .event-grid {
