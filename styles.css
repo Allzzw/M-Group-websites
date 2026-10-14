@@ -1014,10 +1014,6 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
   gap: 18px;
 }
 
-.project-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .event-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
