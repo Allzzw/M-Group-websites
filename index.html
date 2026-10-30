@@ -18,10 +18,10 @@
     <meta property="og:url" content="https://allzzw.github.io/M-Group-websites/" />
     <meta property="og:site_name" content="M-Group" />
     <meta name="twitter:card" content="summary" />
-    <link rel="icon" href="favicon.svg?v=20260630a" type="image/svg+xml" />
-    <link rel="shortcut icon" href="favicon.svg?v=20260630a" type="image/svg+xml" />
-    <link rel="mask-icon" href="favicon.svg?v=20260630a" color="#e83e8c" />
-    <link rel="stylesheet" href="styles.css?v=20260629h" />
+    <link rel="icon" href="favicon.svg?v=20261030a" type="image/svg+xml" />
+    <link rel="shortcut icon" href="favicon.svg?v=20261030a" type="image/svg+xml" />
+    <link rel="mask-icon" href="assets/mask-icon.svg?v=20261030a" color="#1c1b19" />
+    <link rel="stylesheet" href="styles.css?v=20261030d" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -82,129 +82,105 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="返回首页">
-        <span class="brand-mark">Metal</span>
-        <span data-lang="zh">
-          <strong>M-Group</strong>
-          <small>临床问题导向的金属生命科学研究</small>
-        </span>
-        <span data-lang="en">
-          <strong>M-Group</strong>
-          <small>Clinical problem-driven metal life science</small>
-        </span>
-      </a>
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="M-Group">
+          <span class="brand-mark" aria-hidden="true">M</span>
+          <span class="brand-text">
+            <strong>M-Group</strong>
+            <small data-lang="zh">临床问题导向的金属生命科学研究</small>
+            <small data-lang="en">Clinical problem-driven metal life science</small>
+          </span>
+        </a>
 
-      <div class="header-actions">
-        <nav class="nav" aria-label="页面导航">
-          <a href="#top" data-lang="zh">首页</a>
-          <a href="#about" data-lang="zh">个人简介</a>
-          <a href="#research" data-lang="zh">研究方向</a>
-          <a href="#team" data-lang="zh">团队成员</a>
-          <a href="#papers" data-lang="zh">学术论文</a>
-          <a href="#projects" data-lang="zh">课题项目</a>
-          <a href="#events" data-lang="zh">大事件</a>
-          <a href="#contact" data-lang="zh">联系合作</a>
-
-          <a href="#top" data-lang="en">Home</a>
-          <a href="#about" data-lang="en">About</a>
-          <a href="#research" data-lang="en">Research</a>
-          <a href="#team" data-lang="en">Team</a>
-          <a href="#papers" data-lang="en">Publications</a>
-          <a href="#projects" data-lang="en">Projects</a>
-          <a href="#events" data-lang="en">Events</a>
-          <a href="#contact" data-lang="en">Contact</a>
+        <nav class="nav" id="site-nav" aria-label="页面导航">
+          <a href="#about"><span data-lang="zh">简介</span><span data-lang="en">About</span></a>
+          <a href="#research"><span data-lang="zh">研究</span><span data-lang="en">Research</span></a>
+          <a href="#team"><span data-lang="zh">团队</span><span data-lang="en">Team</span></a>
+          <a href="#papers"><span data-lang="zh">论文</span><span data-lang="en">Publications</span></a>
+          <a href="#projects"><span data-lang="zh">项目</span><span data-lang="en">Projects</span></a>
+          <a href="#events"><span data-lang="zh">动态</span><span data-lang="en">News</span></a>
+          <a href="#contact"><span data-lang="zh">联系</span><span data-lang="en">Contact</span></a>
         </nav>
-        <button
-          class="language-switcher"
-          type="button"
-          data-lang-toggle
-          data-label-zh="English"
-          data-label-en="中文"
-        >
-          English
-        </button>
+
+        <div class="header-actions">
+          <button
+            class="language-switcher"
+            type="button"
+            data-lang-toggle
+            data-label-zh="EN"
+            data-label-en="中文"
+          >
+            EN
+          </button>
+          <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="菜单">
+            <span></span><span></span>
+          </button>
+        </div>
       </div>
     </header>
 
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <h1 data-lang="zh">张壮伟</h1>
-          <h1 data-lang="en">Zhuangwei Zhang</h1>
-
-          <p class="role" data-lang="zh">
-            特聘副研究员，课题组长
+          <p class="hero-eyebrow">
+            <span data-lang="zh">M-Group · 课题组长</span>
+            <span data-lang="en">M-Group · Principal Investigator</span>
           </p>
-          <p class="role" data-lang="en">
-            Distinguished Associate Research Fellow, PI
-          </p>
-
-          <p class="institution" data-lang="zh">
-            宁波大学附属第一医院中心实验室
-          </p>
-          <p class="institution" data-lang="en">
-            Central Laboratory, The First Affiliated Hospital of Ningbo University
+          <h1>
+            <span data-lang="zh">张壮伟</span>
+            <span data-lang="en">Zhuangwei Zhang</span>
+          </h1>
+          <p class="hero-alt-name">
+            <span data-lang="zh">Zhuangwei Zhang</span>
+            <span data-lang="en">张壮伟</span>
           </p>
 
-          <div class="tagline">
-            <p data-lang="zh">金属生命科学与临床转化</p>
-            <p data-lang="en">Metallobiology and clinical translation</p>
+          <p class="role">
+            <span data-lang="zh">特聘副研究员，课题组长</span>
+            <span data-lang="en">Distinguished Associate Research Fellow, PI</span>
+          </p>
+          <p class="institution">
+            <span data-lang="zh">宁波大学附属第一医院中心实验室</span>
+            <span data-lang="en">Central Laboratory, The First Affiliated Hospital of Ningbo University</span>
+          </p>
+
+          <div class="element-map" role="img" aria-label="Metal: Mechanism, Engineering, Theranostics">
+            <span class="el el-core"><small>01</small><b>M</b><em>Metal</em></span>
+            <span class="el-link" aria-hidden="true"></span>
+            <span class="el"><small>02</small><b>Mc</b><em>Mechanism</em></span>
+            <span class="el"><small>03</small><b>En</b><em>Engineering</em></span>
+            <span class="el"><small>04</small><b>Tx</b><em>Theranostics</em></span>
           </div>
 
-          <p class="summary" data-lang="zh">
-            聚焦金属机制、生物医学工程与分子诊疗。
+          <p class="hero-statement" data-lang="zh">
+            以金属为线索理解疾病：从金属离子、配位结构与放射金属出发，解析疾病机制，发展组织修复递送平台与分子影像工具。
           </p>
-          <p class="summary" data-lang="en">
-            Metal mechanisms, biomedical engineering, and molecular theranostics.
+          <p class="hero-statement" data-lang="en">
+            Metals are our lens on disease. Starting from metal ions, coordination structures,
+            and radiometals, we work out disease mechanisms and build delivery platforms for
+            tissue repair and tools for molecular imaging.
           </p>
 
           <div class="hero-actions">
-            <a class="button primary" href="#research" data-lang="zh">研究方向</a>
-            <a class="button secondary" href="#contact" data-lang="zh">联系合作</a>
-            <a class="button primary" href="#research" data-lang="en">Research Areas</a>
-            <a class="button secondary" href="#contact" data-lang="en">Contact</a>
+            <a class="button primary" href="#research"><span data-lang="zh">研究方向</span><span data-lang="en">Research</span></a>
+            <a class="button secondary" href="#contact"><span data-lang="zh">联系合作</span><span data-lang="en">Get in touch</span></a>
+            <a class="hero-link" href="https://orcid.org/0000-0002-0310-6607" target="_blank" rel="noreferrer">ORCID</a>
+            <a class="hero-link" href="https://www.researchgate.net/profile/Zhuangwei-Zhang/publications" target="_blank" rel="noreferrer">ResearchGate</a>
           </div>
         </div>
 
-        <aside class="hero-panel" aria-label="研究主线概览">
-          <div class="metal-orbit" aria-hidden="true">
-            <span class="node node-a">Metal</span>
-            <span class="node node-b">Mechanism</span>
-            <span class="node node-c">Theranostics</span>
-            <span class="node node-d">Engineering</span>
-          </div>
-
-          <h2 data-lang="zh">从金属机制到诊疗工具</h2>
-          <h2 data-lang="en">From metal mechanisms to theranostic tools</h2>
-
-          <p data-lang="zh">
-            研究金属离子、配位结构和放射金属在疾病中的作用，
-            并将其用于疾病机制、递送修复和分子成像。
-          </p>
-          <p data-lang="en">
-            We study metal ions, coordination structures, and radiometals in disease,
-            then apply them to disease mechanisms, delivery and repair, and molecular imaging.
-          </p>
-
-          <dl class="quick-facts" data-lang="zh">
+        <aside class="hero-side" aria-label="简历概览">
+          <figure class="portrait">
+            <img src="assets/member-07.jpeg" alt="张壮伟 Zhuangwei Zhang" width="390" height="487" />
+          </figure>
+          <dl class="quick-facts">
             <div>
-              <dt>2021.09-2025.06</dt>
-              <dd><span>南京大学化学化工学院有机化学博士</span></dd>
+              <dt><span data-lang="zh">2025.07 – 至今</span><span data-lang="en">2025.07 – now</span></dt>
+              <dd><span data-lang="zh">宁波大学附属第一医院中心实验室</span><span data-lang="en">Central Laboratory, First Affiliated Hospital of Ningbo University</span></dd>
             </div>
             <div>
-              <dt>2025.07-至今</dt>
-              <dd>宁波大学附属第一医院中心实验室</dd>
-            </div>
-          </dl>
-
-          <dl class="quick-facts" data-lang="en">
-            <div>
-              <dt>2021.09-2025.06</dt>
-              <dd><span>School of Chemistry and Chemical Engineering, Nanjing University</span><span>Ph.D. in Organic Chemistry</span></dd>
-            </div>
-            <div>
-              <dt>Since 2025.07</dt>
-              <dd>Central Laboratory, The First Affiliated Hospital of Ningbo University</dd>
+              <dt>2021.09 – 2025.06</dt>
+              <dd><span data-lang="zh">南京大学化学化工学院 · 有机化学博士</span><span data-lang="en">Ph.D. in Organic Chemistry, Nanjing University</span></dd>
             </div>
           </dl>
         </aside>
@@ -216,12 +192,12 @@
           <p class="recent-updates-label" data-lang="en">Recent updates</p>
           <ul class="recent-update-list" data-lang="zh">
             <li><time>10.25</time><a href="#event-2026-10-25">Haijiao Lab团建活动</a></li>
-            <li><time>10.22</time><a href="#event-2026-10-22">周扬研究员课题指导</a></li>
+            <li><time>10.22</time><a href="#event-2026-10-22">周扬研究员来访指导</a></li>
             <li><time>10.15</time><a href="#event-2026-10-15">张壮伟受聘研究生校外导师</a></li>
           </ul>
           <ul class="recent-update-list" data-lang="en">
             <li><time>Oct 25</time><a href="#event-2026-10-25">Haijiao Lab team-building outing</a></li>
-            <li><time>Oct 22</time><a href="#event-2026-10-22">Research guidance by Prof. Yang Zhou</a></li>
+            <li><time>Oct 22</time><a href="#event-2026-10-22">Visit by Prof. Yang Zhou</a></li>
             <li><time>Oct 15</time><a href="#event-2026-10-15">Zhuangwei Zhang appointed external graduate supervisor</a></li>
           </ul>
           <a class="recent-updates-link" href="#events" data-lang="zh">全部动态</a>
@@ -233,41 +209,42 @@
         <div>
           <p class="section-kicker" data-lang="zh">个人简介</p>
           <p class="section-kicker" data-lang="en">About</p>
-          <h2 data-lang="zh">药学、化学与<br />医学转化</h2>
-          <h2 data-lang="en">Pharmacy, chemistry, and medical translation</h2>
+          <h2 data-lang="zh"><span class="nw">药学、</span><span class="nw">化学与</span><br /><span class="nw">医学转化</span></h2>
+          <h2 data-lang="en">Pharmacy, chemistry, and clinical translation</h2>
         </div>
         <div class="prose" data-lang="zh">
           <p>
-            本科接受药学训练；硕士阶段从事环肽全合成、结构设计和抗炎活性评价，
-            完成了分子设计、化学合成与生物学评价的系统训练。
+            本科就读药学专业；硕士阶段从事环肽全合成、结构设计与抗炎活性评价，
+            系统掌握了从分子设计、化学合成到生物学评价的完整研究链条。
           </p>
           <p>
-            2021年进入南京大学攻读有机化学博士，研究蛋白-蛋白相互作用、
-            界面识别与功能调控，并探索其工程化应用。
+            2021年进入南京大学化学化工学院攻读有机化学博士学位，
+            研究蛋白-蛋白相互作用中的界面识别与功能调控，并探索其工程化应用。
           </p>
           <p>
-            2025年7月入职宁波大学附属第一医院中心实验室，任特聘副研究员、课题组长。
-            目前以<strong>金属相关机制与工程平台</strong>为主线，开展跟腱损伤、病理性矿化、
-            口腔疾病、肿瘤靶向和PET/CT分子影像研究。
+            2025年7月加入宁波大学附属第一医院中心实验室，任特聘副研究员、课题组长。
+            课题组以<strong>金属相关机制与工程平台</strong>为主线，聚焦跟腱损伤、病理性矿化、
+            口腔疾病、肿瘤靶向与PET/CT分子影像等临床问题。
           </p>
         </div>
         <div class="prose" data-lang="en">
           <p>
-            I trained in pharmacy as an undergraduate. My master's work covered cyclic
-            peptide total synthesis, structural design, and anti-inflammatory evaluation,
-            with training in molecular design, synthesis, and biological assessment.
+            I trained in pharmacy as an undergraduate. My master's research covered the
+            total synthesis, structural design, and anti-inflammatory evaluation of cyclic
+            peptides, which gave me end-to-end training from molecular design and synthesis
+            to biological assessment.
           </p>
           <p>
-            I began doctoral training in organic chemistry at Nanjing University in 2021,
-            focusing on protein-protein interactions, interface recognition, functional
-            regulation, and their engineering applications.
+            In 2021 I began a Ph.D. in organic chemistry at Nanjing University, studying
+            interface recognition and functional regulation in protein-protein interactions
+            and exploring how they can be engineered.
           </p>
           <p>
-            Since July 2025, I have been a Distinguished Associate Research Fellow and
+            Since July 2025 I have been a Distinguished Associate Research Fellow and
             independent PI at the Central Laboratory of The First Affiliated Hospital of
-            Ningbo University. My work on <strong>metal-centered mechanisms and engineering platforms</strong>
-            addresses tendon injury, pathological mineralization, oral disease, cancer targeting,
-            and PET/CT molecular imaging.
+            Ningbo University. Built around <strong>metal-centered mechanisms and engineering platforms</strong>,
+            the group works on tendon injury, pathological mineralization, oral disease,
+            cancer targeting, and PET/CT molecular imaging.
           </p>
         </div>
       </section>
@@ -276,31 +253,31 @@
         <div class="section-heading">
           <p class="section-kicker" data-lang="zh">研究方向</p>
           <p class="section-kicker" data-lang="en">Research</p>
-          <h2 data-lang="zh">金属机制、工程平台与分子诊疗</h2>
+          <h2 data-lang="zh"><span class="nw">金属机制、</span><span class="nw">工程平台</span><span class="nw">与分子诊疗</span></h2>
           <h2 data-lang="en">Metal mechanisms, engineering, and theranostics</h2>
           <p data-lang="zh">
-            围绕临床问题，研究金属离子、配位结构、金属界面和放射金属。
-            将机制研究转化为局部递送、组织修复和分子诊疗工具；合作科室包括<strong>骨科中心、口腔科和核医学科</strong>。
+            我们从临床问题出发，研究金属离子、配位结构、金属界面与放射金属，
+            并把机制认识转化为局部递送、组织修复和分子诊疗工具。主要合作科室为<strong>骨科中心、口腔科和核医学科</strong>。
           </p>
           <p data-lang="en">
-            We study metal ions, coordination structures, metal interfaces, and radiometals
-            in clinically relevant questions. The resulting mechanisms inform local delivery,
-            tissue repair, and molecular theranostics, with clinical collaboration in
+            Starting from clinical questions, we study metal ions, coordination structures,
+            metal interfaces, and radiometals, and turn what we learn into tools for local
+            delivery, tissue repair, and molecular theranostics. Our main clinical partners are
             <strong>orthopedics, stomatology, and nuclear medicine</strong>.
           </p>
         </div>
 
         <div class="research-grid">
           <article class="research-card">
-            <span class="card-index">01</span>
+            <span class="card-index"><span class="el el-mini" aria-hidden="true"><b>Mc</b></span><span class="card-word">Metal · Mechanism</span></span>
             <h3 data-lang="zh">金属作为机制变量</h3>
             <h3 data-lang="en">Metals as mechanistic variables</h3>
             <p data-lang="zh">
-              研究病理性结晶、金属离子稳态和组织微环境对炎症、矿化与组织修复的影响。
+              探究病理性结晶、金属离子稳态与组织微环境如何影响炎症、矿化和组织修复。
             </p>
             <p data-lang="en">
-              This direction asks how pathological crystals, metal-ion homeostasis,
-              and tissue microenvironments shape inflammation, mineralization, and tissue repair.
+              How do pathological crystals, metal-ion homeostasis, and the tissue
+              microenvironment shape inflammation, mineralization, and repair?
             </p>
             <ul data-lang="zh">
               <li>MSU晶体、牙结石、动脉粥样硬化等病理性矿化过程</li>
@@ -310,21 +287,21 @@
             <ul data-lang="en">
               <li>Pathological mineralization, including MSU crystals, dental calculus, and atherosclerosis</li>
               <li>Metallomics and metal-ion cell biology</li>
-              <li>Clinical input: Orthopedics Center</li>
+              <li>Clinical partner: Orthopedics Center</li>
             </ul>
             <a class="research-reading" href="https://doi.org/10.1038/s41467-022-28060-x" target="_blank" rel="noreferrer">The mouse metallomic landscape of aging and metabolism</a>
           </article>
 
           <article class="research-card">
-            <span class="card-index">02</span>
+            <span class="card-index"><span class="el el-mini" aria-hidden="true"><b>En</b></span><span class="card-word">Metal · Engineering</span></span>
             <h3 data-lang="zh">金属作为工程节点</h3>
             <h3 data-lang="en">Metals as engineering nodes</h3>
             <p data-lang="zh">
-              面向跟腱损伤与组织修复，开发金属配位、金属多酚网络和MOF/纳米酶局部递送平台。
+              面向跟腱损伤与组织修复，开发基于金属配位、金属多酚网络和MOF/纳米酶的局部递送平台。
             </p>
             <p data-lang="en">
-              This direction develops injectable and local delivery platforms
-              based on metal coordination, metal-phenolic networks, MOFs, and nanozymes for tendon injury and tissue repair.
+              Injectable and local delivery platforms built on metal coordination,
+              metal-phenolic networks, MOFs, and nanozymes, aimed at tendon injury and tissue repair.
             </p>
             <ul data-lang="zh">
               <li>水凝胶、3D打印支架、静电纺丝体系</li>
@@ -334,20 +311,20 @@
             <ul data-lang="en">
               <li>Hydrogels, 3D-printed scaffolds, and electrospun fibers</li>
               <li>Microneedle- and microsphere-based sustained delivery systems</li>
-              <li>Clinical inputs: Orthopedics Center and Department of Stomatology</li>
+              <li>Clinical partners: Orthopedics Center, Stomatology</li>
             </ul>
             <a class="research-reading" href="https://www.cas.org/resources/cas-insights/nanozymes-rugged-catalysis-for-diagnostics-and-enzyme-replacement-therapy" target="_blank" rel="noreferrer">Nanozymes: Rugged catalysis for diagnostics and enzyme-replacement therapy</a>
           </article>
 
           <article class="research-card">
-            <span class="card-index">03</span>
+            <span class="card-index"><span class="el el-mini" aria-hidden="true"><b>Tx</b></span><span class="card-word">Metal · Theranostics</span></span>
             <h3 data-lang="zh">金属作为诊疗工具</h3>
             <h3 data-lang="en">Metals as theranostic tools</h3>
             <p data-lang="zh">
-              面向肿瘤靶向和PET/CT分子影像，开发放射金属配位、多肽与binder设计工具。
+              面向肿瘤靶向与PET/CT分子影像，开发放射金属配位、多肽及binder设计工具。
             </p>
             <p data-lang="en">
-              This direction develops radiometal, metal-coordination, and binder-design
+              Radiometal chemistry, metal coordination, and binder design, developed into
               tools for cancer targeting and PET/CT molecular imaging.
             </p>
             <ul data-lang="zh">
@@ -358,7 +335,7 @@
             <ul data-lang="en">
               <li>PPI-interface peptides, de novo binder design, and yeast display</li>
               <li>MOF-based PET/CT imaging probes</li>
-              <li>Clinical inputs: nuclear medicine and stomatology</li>
+              <li>Clinical partners: Nuclear Medicine, Stomatology</li>
             </ul>
             <a class="research-reading" href="https://doi.org/10.1038/s41586-026-10328-7" target="_blank" rel="noreferrer">The past, present and future of de novo protein design</a>
             <a class="research-reading" href="https://proteinbase.com/" target="_blank" rel="noreferrer">ProteinBase</a>
@@ -370,14 +347,15 @@
         <div class="section-heading">
           <p class="section-kicker" data-lang="zh">团队成员</p>
           <p class="section-kicker" data-lang="en">Team</p>
-          <h2 data-lang="zh">建设中的临床问题导向研究团队</h2>
-          <h2 data-lang="en">A growing clinically oriented research team</h2>
+          <h2 data-lang="zh"><span class="nw">以临床问题为导向的</span><span class="nw">研究团队</span></h2>
+          <h2 data-lang="en">A growing team built around clinical questions</h2>
           <p data-lang="zh">
-            课题组正在宁波大学附属第一医院方桥院区建设。
+            课题组依托宁波大学附属第一医院方桥院区建设，成员来自骨科、口腔、核医学、药学与工程等不同背景。
           </p>
           <p data-lang="en">
-            The group is being established at the Fangqiao Campus of The First
-            Affiliated Hospital of Ningbo University.
+            The group is based at the Fangqiao Campus of The First Affiliated Hospital of
+            Ningbo University, with members trained in orthopedics, stomatology, nuclear
+            medicine, pharmacy, and engineering.
           </p>
         </div>
 
@@ -387,8 +365,8 @@
             <span class="status-label" data-lang="en">Principal Investigator</span>
             <h3 data-lang="zh">张壮伟</h3>
             <h3 data-lang="en">Zhuangwei Zhang</h3>
-            <p data-lang="zh">特聘副研究员，课题组长。负责金属生命科学、生物医学工程平台和临床转化研究方向设计。</p>
-            <p data-lang="en">Distinguished Associate Research Fellow and PI. Leads research in metallobiology, biomedical engineering platforms, and clinical translation.</p>
+            <p data-lang="zh">特聘副研究员，课题组长。负责课题组在金属生命科学、生物医学工程平台与临床转化方向的整体规划。</p>
+            <p data-lang="en">Distinguished Associate Research Fellow and PI. Sets the group&rsquo;s direction in metallobiology, biomedical engineering platforms, and clinical translation.</p>
           </article>
 
           <article class="team-card lead">
@@ -396,8 +374,8 @@
             <span class="status-label" data-lang="en">Core clinical collaborators</span>
             <h3 data-lang="zh">毛海蛟、肖尊宇、赵梦祥</h3>
             <h3 data-lang="en">Haijiao Mao, Zunyu Xiao, Mengxiang Zhao</h3>
-            <p data-lang="zh">覆盖骨科中心、核医学科和口腔科，支撑跟腱病损、PET/CT分子影像和口腔疾病研究。</p>
-          <p data-lang="en">Core clinical collaborators from orthopedics, nuclear medicine, and stomatology support tendon disease, PET/CT imaging, and oral disease studies.</p>
+            <p data-lang="zh">分别来自骨科中心、核医学科和口腔科，为跟腱病损、PET/CT分子影像和口腔疾病研究提供临床支撑。</p>
+          <p data-lang="en">Clinicians from orthopedics, nuclear medicine, and stomatology who anchor the group&rsquo;s work on tendon disease, PET/CT imaging, and oral disease.</p>
           </article>
 
           <article class="team-card">
@@ -405,8 +383,8 @@
             <span class="status-label" data-lang="en">Core university collaborator</span>
             <h3 data-lang="zh">姜烁琦</h3>
             <h3 data-lang="en">Shuoqi Jiang</h3>
-            <p data-lang="zh">江南大学生物工程学院博士，浙江万里学院助理研究员，参与生物信息和病理性结晶沉积微生物等交叉方向。</p>
-            <p data-lang="en">Ph.D. from the School of Biotechnology, Jiangnan University, and Assistant Research Fellow at Zhejiang Wanli University, contributing to bioinformatics and pathological crystal-associated microbiology.</p>
+            <p data-lang="zh">江南大学生物工程学院博士，浙江万里学院助理研究员，参与生物信息学及病理性结晶沉积相关微生物等交叉研究。</p>
+            <p data-lang="en">Ph.D., School of Biotechnology, Jiangnan University; Assistant Research Fellow at Zhejiang Wanli University. Works with the group on bioinformatics and on microbes linked to pathological crystal deposition.</p>
           </article>
 
           <article class="team-card">
@@ -414,17 +392,8 @@
             <span class="status-label" data-lang="en">Interdisciplinary collaborator</span>
             <h3 data-lang="zh">李建新</h3>
             <h3 data-lang="en">Jianxin Li</h3>
-            <p data-lang="zh">南京大学化学化工学院有机化学教授，参与有机化学、分子设计与交叉转化研究合作。</p>
-            <p data-lang="en">Professor of Organic Chemistry at the School of Chemistry and Chemical Engineering, Nanjing University, collaborating on organic chemistry, molecular design, and translational interdisciplinary research.</p>
-          </article>
-
-          <article class="team-card">
-            <span class="status-label" data-lang="zh">外部交叉合作</span>
-            <span class="status-label" data-lang="en">Interdisciplinary collaborator</span>
-            <h3 data-lang="zh">李仁杰</h3>
-            <h3 data-lang="en">Renjie Li</h3>
-            <p data-lang="zh">广东双林生物制药有限公司研发中心项目研究员，参与生物制药研发与转化合作。</p>
-            <p data-lang="en">Project Researcher at the R&D Center of Guangdong Shuanglin Bio-Pharmacy Co., Ltd., collaborating on biopharmaceutical R&D and translational projects.</p>
+            <p data-lang="zh">南京大学化学化工学院教授（有机化学），在有机化学、分子设计与交叉转化研究方面开展合作。</p>
+            <p data-lang="en">Professor of Organic Chemistry, School of Chemistry and Chemical Engineering, Nanjing University. Collaborates on organic chemistry, molecular design, and interdisciplinary translation.</p>
           </article>
 
           <article class="team-card">
@@ -432,8 +401,17 @@
             <span class="status-label" data-lang="en">Interdisciplinary collaborator</span>
             <h3 data-lang="zh">余权威</h3>
             <h3 data-lang="en">Quanwei Yu</h3>
-            <p data-lang="zh">四川大学博士，黑龙江省药品检验研究院研究员，参与药物设计、结构生物学、计算化学及AIDD等交叉方向合作。</p>
-            <p data-lang="en">Ph.D. from Sichuan University and Research Fellow at the Heilongjiang Institute for Drug Control, collaborating on drug design, structural biology, computational chemistry, and AI-driven drug discovery (AIDD).</p>
+            <p data-lang="zh">四川大学博士，黑龙江省药品检验研究院研究员，在药物设计、结构生物学、计算化学及AI辅助药物发现（AIDD）方面开展合作。</p>
+            <p data-lang="en">Ph.D., Sichuan University; Research Fellow at the Heilongjiang Institute for Drug Control. Collaborates on drug design, structural biology, computational chemistry, and AI-driven drug discovery (AIDD).</p>
+          </article>
+
+          <article class="team-card">
+            <span class="status-label" data-lang="zh">外部交叉合作</span>
+            <span class="status-label" data-lang="en">Interdisciplinary collaborator</span>
+            <h3 data-lang="zh">李仁杰</h3>
+            <h3 data-lang="en">Renjie Li</h3>
+            <p data-lang="zh">广东双林生物制药有限公司研发中心项目研究员，在生物制药研发与成果转化方面开展合作。</p>
+            <p data-lang="en">Project Researcher, R&amp;D Center, Guangdong Shuanglin Bio-Pharmacy Co., Ltd. Collaborates on biopharmaceutical R&amp;D and translation.</p>
           </article>
 
           <section class="team-group">
@@ -444,14 +422,14 @@
               <h3 data-lang="en">Tendon disease and sustained delivery systems</h3>
             </div>
             <div class="member-list">
-              <div class="member"><img src="assets/member-01.jpeg" alt="钟梦林" /><div><strong data-lang="zh">钟梦林</strong><strong data-lang="en">Menglin Zhong</strong><span data-lang="zh">宁波大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Ningbo University</span><span data-lang="zh">生物压电、3D打印与跟腱修复</span><span data-lang="en">Biopiezoelectricity, 3D printing, and tendon repair</span></div></div>
-              <div class="member"><img src="assets/member-02.jpeg" alt="王轲瑜" /><div><strong data-lang="zh">王轲瑜</strong><strong data-lang="en">Keyu Wang</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">微球、气体疗法与跟腱病</span><span data-lang="en">Microspheres, gas therapy, and tendon disease</span></div></div>
-              <div class="member"><img src="assets/member-03.jpeg" alt="李家骏" /><div><strong data-lang="zh">李家骏</strong><strong data-lang="en">Jiajun Li</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">微针、金属-药物网络与跟腱病</span><span data-lang="en">Microneedles, metal-drug networks, and tendon disease</span></div></div>
-              <div class="member"><img src="assets/member-04.jpeg?v=20260715" alt="邵一丁" /><div><strong data-lang="zh">邵一丁</strong><strong data-lang="en">Yiding Shao</strong><span data-lang="zh">宁波大学2024级临床医学学硕</span><span data-lang="en">2024 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">水凝胶与跟腱缺损</span><span data-lang="en">Hydrogels and tendon defects</span></div></div>
-              <div class="member"><img src="assets/member-05.jpeg" alt="杨雯" /><div><strong data-lang="zh">杨雯</strong><strong data-lang="en">Wen Yang</strong><span data-lang="zh">宁波大学2025级临床医学学硕</span><span data-lang="en">2025 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">暂无</span><span data-lang="en">To be determined</span></div></div>
-              <div class="member"><img src="assets/member-18.png" alt="杨沅" /><div><strong data-lang="zh">杨沅</strong><strong data-lang="en">Yuan Yang</strong><span data-lang="zh">宁波大学2026级骨科学专硕</span><span data-lang="en">2026 M.Med. candidate in Orthopedics, Ningbo University</span><span data-lang="zh">天然产物水凝胶与跟腱病</span><span data-lang="en">Natural product hydrogels and tendon disease</span><span data-lang="zh">带教：王轲瑜、樊基耿；外派浙大二院</span><span data-lang="en">Mentors: Keyu Wang and Jigeng Fan; placement at the Second Affiliated Hospital of Zhejiang University School of Medicine</span></div></div>
-              <div class="member"><img src="assets/member-23.jpg?v=20260816" alt="林子皓" /><div><strong data-lang="zh">林子皓</strong><strong data-lang="en">Zihao Lin</strong><span data-lang="zh">宁波大学2026级临床医学学博</span><span data-lang="en">2026 M.D.-Ph.D. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">肌肉缺损与骨再生</span><span data-lang="en">Muscle defects and bone regeneration</span></div></div>
-              <div class="member"><img src="assets/member-06.jpeg" alt="任天一" /><div><strong data-lang="zh">任天一</strong><strong data-lang="en">Tianyi Ren</strong><span data-lang="zh">宁波大学2025级机械专硕</span><span data-lang="en">2025 M.Eng. candidate in Mechanical Engineering, Ningbo University</span><span data-lang="zh">暂无</span><span data-lang="en">To be determined</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-01.jpeg" alt="钟梦林" /><div><strong data-lang="zh">钟梦林</strong><strong data-lang="en">Menglin Zhong</strong><span data-lang="zh">宁波大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Ningbo University</span><span data-lang="zh">生物压电、3D打印与跟腱修复</span><span data-lang="en">Biopiezoelectricity, 3D printing, and tendon repair</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-02.jpeg" alt="王轲瑜" /><div><strong data-lang="zh">王轲瑜</strong><strong data-lang="en">Keyu Wang</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">微球、气体疗法与跟腱病</span><span data-lang="en">Microspheres, gas therapy, and tendon disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-03.jpeg" alt="李家骏" /><div><strong data-lang="zh">李家骏</strong><strong data-lang="en">Jiajun Li</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">微针、金属-药物网络与跟腱病</span><span data-lang="en">Microneedles, metal-drug networks, and tendon disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-04.jpeg?v=20260715" alt="邵一丁" /><div><strong data-lang="zh">邵一丁</strong><strong data-lang="en">Yiding Shao</strong><span data-lang="zh">宁波大学2024级临床医学学硕</span><span data-lang="en">2024 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">水凝胶与跟腱缺损</span><span data-lang="en">Hydrogels and tendon defects</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-05.jpeg" alt="杨雯" /><div><strong data-lang="zh">杨雯</strong><strong data-lang="en">Wen Yang</strong><span data-lang="zh">宁波大学2025级临床医学学硕</span><span data-lang="en">2025 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">研究方向待定</span><span data-lang="en">Topic to be determined</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-18.jpg" alt="杨沅" /><div><strong data-lang="zh">杨沅</strong><strong data-lang="en">Yuan Yang</strong><span data-lang="zh">宁波大学2026级骨科学专硕</span><span data-lang="en">2026 M.Med. candidate in Orthopedics, Ningbo University</span><span data-lang="zh">天然产物水凝胶与跟腱病</span><span data-lang="en">Natural product hydrogels and tendon disease</span><span data-lang="zh">带教：王轲瑜、樊基耿；外派浙大二院</span><span data-lang="en">Mentors: Keyu Wang and Jigeng Fan; placement at the Second Affiliated Hospital of Zhejiang University School of Medicine</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-23.jpg?v=20260816" alt="林子皓" /><div><strong data-lang="zh">林子皓</strong><strong data-lang="en">Zihao Lin</strong><span data-lang="zh">宁波大学2026级临床医学学博</span><span data-lang="en">2026 M.D.-Ph.D. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">肌肉缺损与骨再生</span><span data-lang="en">Muscle defects and bone regeneration</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-06.jpeg" alt="任天一" /><div><strong data-lang="zh">任天一</strong><strong data-lang="en">Tianyi Ren</strong><span data-lang="zh">宁波大学2025级机械专硕</span><span data-lang="en">2025 M.Eng. candidate in Mechanical Engineering, Ningbo University</span><span data-lang="zh">研究方向待定</span><span data-lang="en">Topic to be determined</span></div></div>
             </div>
           </section>
 
@@ -463,10 +441,10 @@
               <h3 data-lang="en">Nanozymes and Bio-MOFs</h3>
             </div>
             <div class="member-list">
-              <div class="member"><img src="assets/member-07.jpeg" alt="张壮伟" /><div><strong data-lang="zh">张壮伟</strong><strong data-lang="en">Zhuangwei Zhang</strong><span data-lang="zh">特聘副研究员，课题组长</span><span data-lang="en">Distinguished Associate Research Fellow, PI</span><span data-lang="zh">MOF纳米酶与痛风性关节炎</span><span data-lang="en">MOF nanozymes for gouty arthritis</span></div></div>
-              <div class="member"><img src="assets/member-10.jpeg" alt="程俊格" /><div><strong data-lang="zh">程俊格</strong><strong data-lang="en">Junge Cheng</strong><span data-lang="zh">丽水学院2025级口腔科专硕</span><span data-lang="en">2025 professional master's candidate in Stomatology, Lishui University</span><span data-lang="zh">高熵纳米酶与MPNs治疗舌鳞状细胞癌</span><span data-lang="en">High-entropy nanozymes and MPNs for oral squamous cell carcinoma</span></div></div>
-              <div class="member"><img src="assets/member-19.png" alt="黄佳琦" /><div><strong data-lang="zh">黄佳琦</strong><strong data-lang="en">Jiaqi Huang</strong><span data-lang="zh">宁波大学2024级口腔医学本科生</span><span data-lang="en">2024 undergraduate student in Stomatology, Ningbo University</span><span data-lang="zh">金属-药物网络与口腔鳞状细胞癌</span><span data-lang="en">Metal-drug networks for oral squamous cell carcinoma</span><span data-lang="zh">带教：程俊格</span><span data-lang="en">Mentor: Junge Cheng</span></div></div>
-              <div class="member"><img src="assets/member-17.png" alt="姚思恩" /><div><strong data-lang="zh">姚思恩</strong><strong data-lang="en">Sien Yao</strong><span data-lang="zh">宁波大学附属第一医院静配中心青年药师</span><span data-lang="en">Clinical pharmacist, PIVAS, The First Affiliated Hospital of Ningbo University</span><span data-lang="zh">生物MOF与口腔疾病</span><span data-lang="en">Bio-MOFs for oral disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-07.jpeg" alt="张壮伟" /><div><strong data-lang="zh">张壮伟</strong><strong data-lang="en">Zhuangwei Zhang</strong><span data-lang="zh">特聘副研究员，课题组长</span><span data-lang="en">Distinguished Associate Research Fellow, PI</span><span data-lang="zh">MOF纳米酶与痛风性关节炎</span><span data-lang="en">MOF nanozymes for gouty arthritis</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-10.jpeg" alt="程俊格" /><div><strong data-lang="zh">程俊格</strong><strong data-lang="en">Junge Cheng</strong><span data-lang="zh">丽水学院2025级口腔科专硕</span><span data-lang="en">2025 professional master's candidate in Stomatology, Lishui University</span><span data-lang="zh">高熵纳米酶与MPNs治疗舌鳞状细胞癌</span><span data-lang="en">High-entropy nanozymes and MPNs for oral squamous cell carcinoma</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-19.jpg" alt="黄佳琦" /><div><strong data-lang="zh">黄佳琦</strong><strong data-lang="en">Jiaqi Huang</strong><span data-lang="zh">宁波大学2024级口腔医学本科生</span><span data-lang="en">2024 undergraduate student in Stomatology, Ningbo University</span><span data-lang="zh">金属-药物网络与口腔鳞状细胞癌</span><span data-lang="en">Metal-drug networks for oral squamous cell carcinoma</span><span data-lang="zh">带教：程俊格</span><span data-lang="en">Mentor: Junge Cheng</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-17.jpg" alt="姚思恩" /><div><strong data-lang="zh">姚思恩</strong><strong data-lang="en">Sien Yao</strong><span data-lang="zh">宁波大学附属第一医院静配中心青年药师</span><span data-lang="en">Clinical pharmacist, PIVAS, The First Affiliated Hospital of Ningbo University</span><span data-lang="zh">生物MOF与口腔疾病</span><span data-lang="en">Bio-MOFs for oral disease</span></div></div>
             </div>
           </section>
 
@@ -478,11 +456,11 @@
               <h3 data-lang="en">Multi-omics analysis and therapeutic innovation</h3>
             </div>
             <div class="member-list">
-              <div class="member"><img src="assets/member-12.jpeg" alt="姜烁琦" /><div><strong data-lang="zh">姜烁琦</strong><strong data-lang="en">Shuoqi Jiang</strong><span data-lang="zh">江南大学生物工程学院博士；浙江万里学院助理研究员</span><span data-lang="en">Ph.D., School of Biotechnology, Jiangnan University; Assistant Research Fellow at Zhejiang Wanli University</span><span data-lang="zh">酶替代疗法与病理性结晶沉积</span><span data-lang="en">Enzyme replacement therapy for pathological crystal deposition</span></div></div>
-              <div class="member"><img src="assets/member-11.jpeg" alt="樊基耿" /><div><strong data-lang="zh">樊基耿</strong><strong data-lang="en">Jigeng Fan</strong><span data-lang="zh">宁波大学2025级临床医学学博</span><span data-lang="en">2025 M.D.-Ph.D. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">昼夜节律调控与跟腱病</span><span data-lang="en">Circadian rhythm regulation in tendon disease</span></div></div>
-              <div class="member"><img src="assets/member-22.jpg" alt="艾林" /><div><strong data-lang="zh">艾林</strong><strong data-lang="en">Lin Ai</strong><span data-lang="zh">温州医科大学2026级骨科学学硕</span><span data-lang="en">2026 M.Sc. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">昼夜节律调控与跟腱病</span><span data-lang="en">Circadian rhythm regulation in tendon disease</span><span data-lang="zh">带教：钟梦林</span><span data-lang="en">Mentor: Menglin Zhong</span></div></div>
-              <div class="member"><img src="assets/member-13.jpeg" alt="李家骏" /><div><strong data-lang="zh">李家骏</strong><strong data-lang="en">Jiajun Li</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">金属代谢组学解析跟腱病</span><span data-lang="en">Metallometabolomics for tendon disease</span></div></div>
-              <div class="member"><img src="assets/member-20.png" alt="霍亭洋" /><div><strong data-lang="zh">霍亭洋</strong><strong data-lang="en">Tingyang Huo</strong><span data-lang="zh">温州医科大学2026级骨科学专硕</span><span data-lang="en">2026 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">金属螯合疗法与跟腱病</span><span data-lang="en">Metal chelation therapy for tendon disease</span><span data-lang="zh">带教：李家骏</span><span data-lang="en">Mentor: Jiajun Li</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-12.jpeg" alt="姜烁琦" /><div><strong data-lang="zh">姜烁琦</strong><strong data-lang="en">Shuoqi Jiang</strong><span data-lang="zh">江南大学生物工程学院博士；浙江万里学院助理研究员</span><span data-lang="en">Ph.D., School of Biotechnology, Jiangnan University; Assistant Research Fellow at Zhejiang Wanli University</span><span data-lang="zh">酶替代疗法与病理性结晶沉积</span><span data-lang="en">Enzyme replacement therapy for pathological crystal deposition</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-11.jpeg" alt="樊基耿" /><div><strong data-lang="zh">樊基耿</strong><strong data-lang="en">Jigeng Fan</strong><span data-lang="zh">宁波大学2025级临床医学学博</span><span data-lang="en">2025 M.D.-Ph.D. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">昼夜节律调控与跟腱病</span><span data-lang="en">Circadian rhythm regulation in tendon disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-22.jpg" alt="艾林" /><div><strong data-lang="zh">艾林</strong><strong data-lang="en">Lin Ai</strong><span data-lang="zh">温州医科大学2026级骨科学学硕</span><span data-lang="en">2026 M.Sc. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">昼夜节律调控与跟腱病</span><span data-lang="en">Circadian rhythm regulation in tendon disease</span><span data-lang="zh">带教：钟梦林</span><span data-lang="en">Mentor: Menglin Zhong</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-03.jpeg" alt="李家骏" /><div><strong data-lang="zh">李家骏</strong><strong data-lang="en">Jiajun Li</strong><span data-lang="zh">温州医科大学2025级骨科学专硕</span><span data-lang="en">2025 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">金属代谢组学解析跟腱病</span><span data-lang="en">Metallometabolomics for tendon disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-20.jpg" alt="霍亭洋" /><div><strong data-lang="zh">霍亭洋</strong><strong data-lang="en">Tingyang Huo</strong><span data-lang="zh">温州医科大学2026级骨科学专硕</span><span data-lang="en">2026 M.Med. candidate in Orthopedics, Wenzhou Medical University</span><span data-lang="zh">金属螯合疗法与跟腱病</span><span data-lang="en">Metal chelation therapy for tendon disease</span><span data-lang="zh">带教：李家骏</span><span data-lang="en">Mentor: Jiajun Li</span></div></div>
             </div>
           </section>
 
@@ -494,9 +472,9 @@
               <h3 data-lang="en">De novo peptide-protein design</h3>
             </div>
             <div class="member-list">
-              <div class="member"><img src="assets/member-14.jpeg" alt="段劭" /><div><strong data-lang="zh">段劭</strong><strong data-lang="en">Shao Duan</strong><span data-lang="zh">哈尔滨医科大学骨科学博士研究生</span><span data-lang="en">Ph.D. candidate in Orthopedics, Harbin Medical University</span><span data-lang="zh">多肽PET示踪剂与骨科炎症性疾病</span><span data-lang="en">Peptide PET tracers for inflammatory orthopedic disease</span></div></div>
-              <div class="member"><img src="assets/member-15.jpeg" alt="章若梦" /><div><strong data-lang="zh">章若梦</strong><strong data-lang="en">Ruomeng Zhang</strong><span data-lang="zh">宁波大学2025级临床医学学硕</span><span data-lang="en">2025 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">多肽与蛋白质从头设计用于肿瘤靶向</span><span data-lang="en">De novo peptide and protein design for cancer targeting</span></div></div>
-              <div class="member"><img src="assets/member-16.jpeg" alt="赵耀" /><div><strong data-lang="zh">赵耀</strong><strong data-lang="en">Yao Zhao</strong><span data-lang="zh">哈尔滨医科大学2024级骨科学专硕</span><span data-lang="en">2024 M.Med. candidate in Orthopedics, Harbin Medical University</span><span data-lang="zh">分子设计与骨科PET分子影像</span><span data-lang="en">Molecular design for orthopedic PET imaging</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-14.jpeg" alt="段劭" /><div><strong data-lang="zh">段劭</strong><strong data-lang="en">Shao Duan</strong><span data-lang="zh">哈尔滨医科大学骨科学博士研究生</span><span data-lang="en">Ph.D. candidate in Orthopedics, Harbin Medical University</span><span data-lang="zh">多肽PET示踪剂与骨科炎症性疾病</span><span data-lang="en">Peptide PET tracers for inflammatory orthopedic disease</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-15.jpeg" alt="章若梦" /><div><strong data-lang="zh">章若梦</strong><strong data-lang="en">Ruomeng Zhang</strong><span data-lang="zh">宁波大学2025级临床医学学硕</span><span data-lang="en">2025 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">多肽与蛋白质从头设计用于肿瘤靶向</span><span data-lang="en">De novo peptide and protein design for cancer targeting</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-16.jpeg" alt="赵耀" /><div><strong data-lang="zh">赵耀</strong><strong data-lang="en">Yao Zhao</strong><span data-lang="zh">哈尔滨医科大学2024级骨科学专硕</span><span data-lang="en">2024 M.Med. candidate in Orthopedics, Harbin Medical University</span><span data-lang="zh">分子设计与骨科PET分子影像</span><span data-lang="en">Molecular design for orthopedic PET imaging</span></div></div>
             </div>
           </section>
 
@@ -508,8 +486,8 @@
               <h3 data-lang="en">Intern members</h3>
             </div>
             <div class="member-list">
-              <div class="member"><img src="assets/member-21.png" alt="陶昕昊" /><div><strong data-lang="zh">陶昕昊</strong><strong data-lang="en">Xinhao Tao</strong><span data-lang="zh">宁波大学2025级临床医学（拔尖人才创新班）</span><span data-lang="en">2025 Clinical Medicine (Top-notch Innovative Talent Program), Ningbo University</span><span data-lang="zh">暂无</span><span data-lang="en">To be determined</span><span data-lang="zh">带教：王轲瑜</span><span data-lang="en">Mentor: Keyu Wang</span></div></div>
-              <div class="member"><img src="assets/member-24.png" alt="吴英" /><div><strong data-lang="zh">吴英</strong><strong data-lang="en">Ying Wu</strong><span data-lang="zh">宁波大学2026级临床医学学硕</span><span data-lang="en">2026 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">暂无</span><span data-lang="en">To be determined</span><span data-lang="zh">带教：林子皓、樊基耿</span><span data-lang="en">Mentors: Zihao Lin and Jigeng Fan</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-21.jpg" alt="陶昕昊" /><div><strong data-lang="zh">陶昕昊</strong><strong data-lang="en">Xinhao Tao</strong><span data-lang="zh">宁波大学2025级临床医学（拔尖人才创新班）</span><span data-lang="en">2025 Clinical Medicine (Top-notch Innovative Talent Program), Ningbo University</span><span data-lang="zh">研究方向待定</span><span data-lang="en">Topic to be determined</span><span data-lang="zh">带教：王轲瑜</span><span data-lang="en">Mentor: Keyu Wang</span></div></div>
+              <div class="member"><img loading="lazy" src="assets/member-24.jpg" alt="吴英" /><div><strong data-lang="zh">吴英</strong><strong data-lang="en">Ying Wu</strong><span data-lang="zh">宁波大学2026级临床医学学硕</span><span data-lang="en">2026 M.Med. candidate in Clinical Medicine, Ningbo University</span><span data-lang="zh">研究方向待定</span><span data-lang="en">Topic to be determined</span><span data-lang="zh">带教：林子皓、樊基耿</span><span data-lang="en">Mentors: Zihao Lin and Jigeng Fan</span></div></div>
             </div>
           </section>
         </div>
@@ -517,69 +495,56 @@
 
       <section id="papers" class="section two-column publications">
         <div>
-          <p class="section-kicker" data-lang="zh">学术论文</p>
-          <p class="section-kicker" data-lang="en">Publications</p>
-          <h2 data-lang="zh">按发表年度排列</h2>
-          <h2 data-lang="en">Publication trajectory</h2>
-          <div class="paper-cloud cloud-map" data-lang="zh" aria-label="论文关键词词云">
-            <span class="cloud-word core">金属</span>
-            <span class="cloud-word w-mof">MOF</span>
-            <span class="cloud-word w-nanozyme">纳米酶</span>
-            <span class="cloud-word w-peptide">多肽</span>
-            <span class="cloud-word w-pet">PET/CT</span>
-            <span class="cloud-word w-hydrogel">水凝胶</span>
-            <span class="cloud-word w-protein">蛋白互作</span>
-            <span class="cloud-word w-mineral">矿化</span>
-            <span class="cloud-word w-tendon">跟腱</span>
-            <span class="cloud-word w-ppi">PPI</span>
-            <span class="cloud-word w-immune">免疫</span>
-            <span class="cloud-word w-enzyme">酶工程</span>
-            <span class="cloud-word w-imaging">分子影像</span>
-            <span class="cloud-word w-inflammation">炎症</span>
-            <span class="cloud-word w-omics">组学</span>
+          <p class="section-kicker" data-lang="zh">按发表年度排列</p>
+          <p class="section-kicker" data-lang="en">Listed by year</p>
+          <h2 data-lang="zh">学术论文</h2>
+          <h2 data-lang="en">Publications</h2>
+          <div class="metrics" aria-label="公开论文指标">
+            <div><strong>31</strong><span data-lang="zh">作品</span><span data-lang="en">works</span></div>
+            <div><strong>963</strong><span data-lang="zh">引用</span><span data-lang="en">citations</span></div>
+            <div><strong>20</strong><span data-lang="zh">H 指数</span><span data-lang="en">h-index</span></div>
           </div>
-          <div class="paper-cloud cloud-map" data-lang="en" aria-label="Publication keyword cloud">
+          <div class="paper-cloud" data-lang="zh" aria-label="论文关键词词云">
+            <span class="cloud-word w3">免疫</span>
+            <span class="cloud-word w2">MOF</span>
+            <span class="cloud-word w4">组学</span>
+            <span class="cloud-word w1">纳米酶</span>
+            <span class="cloud-word w3">矿化</span>
+            <span class="cloud-word w2">PET/CT</span>
+            <span class="cloud-word w4">酶工程</span>
+            <span class="cloud-word w3">跟腱</span>
+            <span class="cloud-word core">金属</span>
+            <span class="cloud-word w3">PPI</span>
+            <span class="cloud-word w2">多肽</span>
+            <span class="cloud-word w4">炎症</span>
+            <span class="cloud-word w3">水凝胶</span>
+            <span class="cloud-word w1">分子影像</span>
+            <span class="cloud-word w4">蛋白互作</span>
+          </div>
+          <div class="paper-cloud" data-lang="en" aria-label="Publication keyword cloud">
+            <span class="cloud-word w3">Immunity</span>
+            <span class="cloud-word w2">MOF</span>
+            <span class="cloud-word w4">Omics</span>
+            <span class="cloud-word w1">Nanozymes</span>
+            <span class="cloud-word w3">Mineralization</span>
+            <span class="cloud-word w2">PET/CT</span>
+            <span class="cloud-word w4">Enzyme engineering</span>
+            <span class="cloud-word w3">Tendon</span>
             <span class="cloud-word core">Metals</span>
-            <span class="cloud-word w-mof">MOF</span>
-            <span class="cloud-word w-nanozyme">Nanozymes</span>
-            <span class="cloud-word w-peptide">Peptides</span>
-            <span class="cloud-word w-pet">PET/CT</span>
-            <span class="cloud-word w-hydrogel">Hydrogels</span>
-            <span class="cloud-word w-protein">Protein interfaces</span>
-            <span class="cloud-word w-mineral">Mineralization</span>
-            <span class="cloud-word w-tendon">Tendon</span>
-            <span class="cloud-word w-ppi">PPI</span>
-            <span class="cloud-word w-immune">Immunity</span>
-            <span class="cloud-word w-enzyme">Enzyme engineering</span>
-            <span class="cloud-word w-imaging">Molecular imaging</span>
-            <span class="cloud-word w-inflammation">Inflammation</span>
-            <span class="cloud-word w-omics">Omics</span>
+            <span class="cloud-word w3">PPI</span>
+            <span class="cloud-word w2">Peptides</span>
+            <span class="cloud-word w4">Inflammation</span>
+            <span class="cloud-word w3">Hydrogels</span>
+            <span class="cloud-word w1">Molecular imaging</span>
+            <span class="cloud-word w4">Protein interfaces</span>
           </div>
         </div>
         <div class="publication-content">
-          <div class="metrics" aria-label="公开论文指标">
-            <div>
-              <strong>31</strong>
-              <span data-lang="zh">作品</span>
-              <span data-lang="en">works</span>
-            </div>
-            <div>
-              <strong>963</strong>
-              <span data-lang="zh">引用</span>
-              <span data-lang="en">citations</span>
-            </div>
-            <div>
-              <strong>20</strong>
-              <span data-lang="zh">H指数</span>
-              <span data-lang="en">h-index</span>
-            </div>
-          </div>
-
           <ol class="publication-list publication-list-current" data-lang="zh">
             <li class="publication-item"><span class="author-role">通讯作者</span> Jiang S., Zheng Z., Gu Q., Li J., Yu X., <strong>Zhang Z.</strong>. Engineered acetylcholinesterase-loaded dissolvable microneedles mitigate dermal toxicity by targeting trichlorfon binding and metabolic pathway modulation. <em>Materials Today Bio</em>, 2026. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.mtbio.2026.103243" target="_blank" rel="noreferrer">10.1016/j.mtbio.2026.103243</a>.</li>
             <li class="publication-item"><span class="author-role">共同第一作者</span> Qin S., Wang Q., <strong>Zhang Z.</strong>, Gu J., He G., Zeng F., Chen R., He B., Wang Y., Wang M., Song Y. Metabolic Hijacking by Engineered Probiotics Reprograms Tumor Metabolism and Immune Microenvironment for Self-Reinforcing Photodynamic Immunotherapy. <em>Journal of the American Chemical Society</em>, 2025. DOI: <a class="doi-link" href="https://doi.org/10.1021/jacs.5c10242" target="_blank" rel="noreferrer">10.1021/jacs.5c10242</a>.</li>
           </ol>
-          <div class="publication-divider" data-lang="zh">Before NBU</div>
+          <div class="publication-divider" data-lang="zh">加入宁波大学之前</div>
           <ol class="publication-list" start="3" data-lang="zh">
             <li class="publication-item"><span class="author-role">通讯作者</span><span class="author-role">高被引</span> Wang H., Xiang L., <strong>Zhang Z.</strong>, Li G., Li P., Chen W., Yu F., Lin X., Lin S. Elucidating the interaction mechanism of rutin with beta-casein and beta-lactoglobulin: A comprehensive analysis using multi-spectroscopy, molecular docking, and molecular dynamic simulations. <em>Food Chemistry</em>, 2025. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.foodchem.2025.143411" target="_blank" rel="noreferrer">10.1016/j.foodchem.2025.143411</a>.</li>
             <li class="publication-item"><span class="author-role">共同第一作者</span> Jiang S., <strong>Zhang Z.</strong>, Gu Q., Li J., Yu X. Rational design to enhance the catalytic activity of acetylcholinesterase and mitigate trichlorfon toxicity in vitro. <em>International Journal of Biological Macromolecules</em>, 2024. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.ijbiomac.2024.138001" target="_blank" rel="noreferrer">10.1016/j.ijbiomac.2024.138001</a>.</li>
@@ -604,7 +569,7 @@
             <li class="publication-item"><span class="author-role">Corresponding author</span> Jiang S., Zheng Z., Gu Q., Li J., Yu X., <strong>Zhang Z.</strong>. Engineered acetylcholinesterase-loaded dissolvable microneedles mitigate dermal toxicity by targeting trichlorfon binding and metabolic pathway modulation. <em>Materials Today Bio</em>, 2026. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.mtbio.2026.103243" target="_blank" rel="noreferrer">10.1016/j.mtbio.2026.103243</a>.</li>
             <li class="publication-item"><span class="author-role">Co-first author</span> Qin S., Wang Q., <strong>Zhang Z.</strong>, Gu J., He G., Zeng F., Chen R., He B., Wang Y., Wang M., Song Y. Metabolic Hijacking by Engineered Probiotics Reprograms Tumor Metabolism and Immune Microenvironment for Self-Reinforcing Photodynamic Immunotherapy. <em>Journal of the American Chemical Society</em>, 2025. DOI: <a class="doi-link" href="https://doi.org/10.1021/jacs.5c10242" target="_blank" rel="noreferrer">10.1021/jacs.5c10242</a>.</li>
           </ol>
-          <div class="publication-divider" data-lang="en">Before NBU</div>
+          <div class="publication-divider" data-lang="en">Before joining NBU</div>
           <ol class="publication-list" start="3" data-lang="en">
             <li class="publication-item"><span class="author-role">Corresponding author</span><span class="author-role">Highly cited</span> Wang H., Xiang L., <strong>Zhang Z.</strong>, Li G., Li P., Chen W., Yu F., Lin X., Lin S. Elucidating the interaction mechanism of rutin with beta-casein and beta-lactoglobulin: A comprehensive analysis using multi-spectroscopy, molecular docking, and molecular dynamic simulations. <em>Food Chemistry</em>, 2025. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.foodchem.2025.143411" target="_blank" rel="noreferrer">10.1016/j.foodchem.2025.143411</a>.</li>
             <li class="publication-item"><span class="author-role">Co-first author</span> Jiang S., <strong>Zhang Z.</strong>, Gu Q., Li J., Yu X. Rational design to enhance the catalytic activity of acetylcholinesterase and mitigate trichlorfon toxicity in vitro. <em>International Journal of Biological Macromolecules</em>, 2024. DOI: <a class="doi-link" href="https://doi.org/10.1016/j.ijbiomac.2024.138001" target="_blank" rel="noreferrer">10.1016/j.ijbiomac.2024.138001</a>.</li>
@@ -626,10 +591,10 @@
           </ol>
 
           <a class="text-link" data-lang="zh" href="https://www.researchgate.net/profile/Zhuangwei-Zhang/publications" target="_blank" rel="noreferrer">
-            查看公开论文列表：ResearchGate
+            完整论文列表见 ResearchGate
           </a>
           <a class="text-link" data-lang="en" href="https://www.researchgate.net/profile/Zhuangwei-Zhang/publications" target="_blank" rel="noreferrer">
-            ResearchGate publications: Zhuangwei Zhang / ORCID 0000-0002-0310-6607
+            Full publication list on ResearchGate
           </a>
         </div>
       </section>
@@ -638,14 +603,14 @@
         <div class="section-heading">
           <p class="section-kicker" data-lang="zh">课题项目</p>
           <p class="section-kicker" data-lang="en">Projects</p>
-          <h2 data-lang="zh">围绕临床问题组织课题</h2>
+          <h2 data-lang="zh"><span class="nw">围绕临床问题</span><span class="nw">组织课题</span></h2>
           <h2 data-lang="en">Projects organized by clinical questions</h2>
           <p data-lang="zh">
-            课题围绕骨科、口腔和核医学中的临床问题，开展金属生命科学与生物医学工程研究（2025-至今）。
+            课题围绕骨科、口腔与核医学中的临床问题展开，涵盖金属生命科学与生物医学工程研究（2025年至今）。
           </p>
           <p data-lang="en">
-            Projects address clinical questions in orthopedics, stomatology, and
-            nuclear medicine through metallobiology and biomedical engineering (2025–present).
+            Our projects take on clinical questions in orthopedics, stomatology, and nuclear
+            medicine through metallobiology and biomedical engineering (2025–present).
           </p>
         </div>
 
@@ -653,87 +618,73 @@
           <article class="project-card">
             <span class="status-label" data-lang="zh">毛海蛟｜48万元</span>
             <span class="status-label" data-lang="en">Haijiao Mao | RMB 480,000</span>
-            <h3 data-lang="zh">Bmal1/Nrf2生物钟轴时序性治疗策略修复跟腱病的机制研究</h3>
+            <h3 data-lang="zh"><span class="nw">Bmal1/Nrf2生物钟轴</span><span class="nw">时序性治疗策略</span><span class="nw">修复跟腱病的</span><span class="nw">机制研究</span></h3>
             <h3 data-lang="en">Mechanisms of chronotherapeutic strategies targeting the Bmal1/Nrf2 circadian axis for Achilles tendinopathy repair</h3>
-            <p data-lang="zh">国家自然科学基金面上项目，项目编号：82673238，2027年01月至2030年12月。围绕Bmal1/Nrf2生物钟轴的时序调控、跟腱病发生发展机制与精准治疗策略开展研究。</p>
-            <p data-lang="en">National Natural Science Foundation of China General Program, grant 82673238; project period: January 2027–December 2030. The project investigates temporal regulation of the Bmal1/Nrf2 circadian axis, the mechanisms underlying Achilles tendinopathy, and precision chronotherapeutic strategies.</p>
+            <p data-lang="zh">国家自然科学基金面上项目（82673238），执行期2027年1月至2030年12月。研究Bmal1/Nrf2生物钟轴的时序调控，解析跟腱病的发生发展机制，并探索精准的时序治疗策略。</p>
+            <p data-lang="en">NSFC General Program, grant 82673238 · Jan 2027 – Dec 2030. Investigates temporal regulation of the Bmal1/Nrf2 circadian axis, the mechanisms of Achilles tendinopathy, and precision chronotherapy.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">毛海蛟｜30万元</span>
             <span class="status-label" data-lang="en">Haijiao Mao | RMB 300,000</span>
-            <h3 data-lang="zh">负载滑膜细胞和多功能碳点的仿生腱周膜动态修复跟腱缺损材料体系构建及机制研究</h3>
+            <h3 data-lang="zh"><span class="nw">负载滑膜细胞和</span><span class="nw">多功能碳点的</span><span class="nw">仿生腱周膜</span><span class="nw">动态修复跟腱缺损</span><span class="nw">材料体系构建</span><span class="nw">及机制研究</span></h3>
             <h3 data-lang="en">Development and mechanisms of a biomimetic paratenon material system loaded with synovial cells and multifunctional carbon dots for dynamic repair of Achilles tendon defects</h3>
-            <p data-lang="zh">浙江省联合基金重点项目，项目编号：592600060，2026年01月至2029年12月。围绕滑膜细胞与多功能碳点协同负载、仿生腱周膜构建及跟腱缺损动态修复机制开展研究。</p>
-            <p data-lang="en">Key Project of the Zhejiang Provincial Joint Fund, grant 592600060; project period: January 2026–December 2029. The project focuses on the coordinated loading of synovial cells and multifunctional carbon dots, biomimetic paratenon construction, and mechanisms of dynamic Achilles tendon defect repair.</p>
+            <p data-lang="zh">浙江省联合基金重点项目（592600060），执行期2026年1月至2029年12月。研究滑膜细胞与多功能碳点的协同负载，构建仿生腱周膜，并解析其动态修复跟腱缺损的机制。</p>
+            <p data-lang="en">Key Project, Zhejiang Provincial Joint Fund, grant 592600060 · Jan 2026 – Dec 2029. Combines synovial cells and multifunctional carbon dots in a biomimetic paratenon and studies how it dynamically repairs Achilles tendon defects.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">肖尊宇｜49万元</span>
             <span class="status-label" data-lang="en">Zunyu Xiao | RMB 490,000</span>
-            <h3 data-lang="zh">活化T细胞靶向探针18F-ICOS-9构建及其在免疫治疗疗效评估中的应用研究</h3>
+            <h3 data-lang="zh"><span class="nw">活化T细胞</span><span class="nw">靶向探针</span><span class="nw">18F-ICOS-9构建</span><span class="nw">及其在</span><span class="nw">免疫治疗</span><span class="nw">疗效评估中的</span><span class="nw">应用研究</span></h3>
             <h3 data-lang="en">Development of the activated T-cell-targeting tracer 18F-ICOS-9 and its application in assessing immunotherapy response</h3>
-            <p data-lang="zh">国家自然科学基金面上项目，项目编号：82672574，研究期限：2027年1月至2030年12月。围绕活化T细胞靶向探针构建、分子影像与免疫治疗疗效评估开展研究。</p>
-            <p data-lang="en">National Natural Science Foundation of China General Program, grant 82672574; project period: January 2027–December 2030. The project focuses on activated T-cell-targeting tracer development, molecular imaging, and assessment of immunotherapy response.</p>
+            <p data-lang="zh">国家自然科学基金面上项目（82672574），执行期2027年1月至2030年12月。构建活化T细胞靶向探针，用于分子影像与免疫治疗疗效评估。</p>
+            <p data-lang="en">NSFC General Program, grant 82672574 · Jan 2027 – Dec 2030. Develops a tracer that targets activated T cells, for molecular imaging and for assessing response to immunotherapy.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">段劭｜30万元</span>
             <span class="status-label" data-lang="en">Shao Duan | RMB 300,000</span>
-            <h3 data-lang="zh">基于活化T细胞PET/NIR双模态成像的类风湿关节炎可视化研究</h3>
+            <h3 data-lang="zh"><span class="nw">基于活化T细胞</span><span class="nw">PET/NIR双模态成像的</span><span class="nw">类风湿关节炎</span><span class="nw">可视化研究</span></h3>
             <h3 data-lang="en">Visualization of rheumatoid arthritis using activated T-cell PET/NIR dual-modal imaging</h3>
-            <p data-lang="zh">国家自然科学基金青年科学基金项目（C类），项目编号：82603930，研究期限：2027年1月至2029年12月。围绕活化T细胞PET/NIR双模态成像与类风湿关节炎可视化开展研究。</p>
-            <p data-lang="en">National Natural Science Foundation of China Young Scientists Fund (Category C), grant 82603930; project period: January 2027–December 2029. The project focuses on activated T-cell PET/NIR dual-modal imaging and visualization of rheumatoid arthritis.</p>
+            <p data-lang="zh">国家自然科学基金青年科学基金项目（C类，82603930），执行期2027年1月至2029年12月。利用活化T细胞PET/NIR双模态成像，实现类风湿关节炎的可视化。</p>
+            <p data-lang="en">NSFC Young Scientists Fund (Category C), grant 82603930 · Jan 2027 – Dec 2029. Uses PET/NIR dual-modal imaging of activated T cells to visualize rheumatoid arthritis.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">赵梦祥｜6万元</span>
             <span class="status-label" data-lang="en">Mengxiang Zhao | RMB 60,000</span>
-            <h3 data-lang="zh">中药饮片多模态知识数据库构建及健康服务应用研究</h3>
+            <h3 data-lang="zh"><span class="nw">中药饮片</span><span class="nw">多模态知识数据库</span><span class="nw">构建及</span><span class="nw">健康服务应用研究</span></h3>
             <h3 data-lang="en">Construction of a multimodal knowledge database for Chinese herbal decoction pieces and its application in health services</h3>
-            <p data-lang="zh">浙江省中医药科技计划面上项目—中医药健康服务研究计划项目，项目编号：2027ZF41，研究期限：2027年1月至2029年12月。围绕中药饮片多模态数据整合、知识数据库构建及健康服务应用开展研究。</p>
-            <p data-lang="en">General Project of the Zhejiang Provincial Traditional Chinese Medicine Science and Technology Program — Traditional Chinese Medicine Health Services Research Program, grant 2027ZF41; project period: January 2027–December 2029. The project focuses on multimodal data integration for Chinese herbal decoction pieces, knowledge database construction, and applications in health services.</p>
+            <p data-lang="zh">浙江省中医药科技计划面上项目—中医药健康服务研究计划项目（2027ZF41），执行期2027年1月至2029年12月。整合中药饮片多模态数据，构建知识数据库，并探索其在健康服务中的应用。</p>
+            <p data-lang="en">General Project, Zhejiang Traditional Chinese Medicine Science and Technology Program (TCM Health Services), grant 2027ZF41 · Jan 2027 – Dec 2029. Integrates multimodal data on Chinese herbal decoction pieces into a knowledge database for health-service applications.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">张壮伟｜50万元</span>
             <span class="status-label" data-lang="en">Zhuangwei Zhang | RMB 500,000</span>
-            <h3 data-lang="zh">3D打印压电肽水凝胶修复肌腱损伤及机制研究</h3>
-            <h3 data-lang="en">3D-printed piezoelectric peptide hydrogel for tendon repair</h3>
-            <p data-lang="zh">
-              2025年度“科创甬江2035”重点研发计划国际科技合作项目，
-              项目编号2025Z214，研究期限：2026年1月至2028年12月。围绕肌腱损伤修复、压电肽水凝胶和机制解析开展研究。
-            </p>
-            <p data-lang="en">
-              2025 Key R&D Program International Science and Technology Cooperation Project
-              of “Sci-Tech Innovation Yongjiang 2035”, grant 2025Z214; project period: January 2026–December 2028. The project focuses on tendon repair,
-              piezoelectric peptide hydrogels, and mechanism analysis.
-            </p>
+            <h3 data-lang="zh"><span class="nw">3D打印</span><span class="nw">压电肽水凝胶</span><span class="nw">修复肌腱损伤</span><span class="nw">及机制研究</span></h3>
+            <h3 data-lang="en">3D-printed piezoelectric peptide hydrogels for tendon repair and the underlying mechanisms</h3>
+            <p data-lang="zh">2025年度“科创甬江2035”重点研发计划国际科技合作项目（2025Z214），执行期2026年1月至2028年12月。研究3D打印压电肽水凝胶对肌腱损伤的修复作用及其机制。</p>
+            <p data-lang="en">International S&amp;T Cooperation Project, 2025 “Sci-Tech Innovation Yongjiang 2035” Key R&amp;D Program, grant 2025Z214 · Jan 2026 – Dec 2028. Studies how 3D-printed piezoelectric peptide hydrogels repair tendon injury, and the mechanisms involved.</p>
           </article>
 
           <article class="project-card">
             <span class="status-label" data-lang="zh">张壮伟｜50万元</span>
             <span class="status-label" data-lang="en">Zhuangwei Zhang | RMB 500,000</span>
-            <h3 data-lang="zh">未表征蛋白emENG1的生物学功能及互作界面调控剂设计</h3>
+            <h3 data-lang="zh"><span class="nw">未表征蛋白emENG1的</span><span class="nw">生物学功能</span><span class="nw">及互作界面</span><span class="nw">调控剂设计</span></h3>
             <h3 data-lang="en">Biological function of uncharacterized protein emENG1 and interface modulator design</h3>
-            <p data-lang="zh">
-              宁波大学附属第一医院博士科学启动基金项目，项目编号2025QC30，研究期限：2025年11月至2028年11月。
-              围绕蛋白功能、互作界面和调控剂设计开展研究。
-            </p>
-            <p data-lang="en">
-              Doctoral Scientific Start-up Fund of The First Affiliated Hospital of Ningbo University,
-              grant 2025QC30; project period: November 2025–November 2028. The project studies protein function, interaction interfaces,
-              and modulator design.
-            </p>
+            <p data-lang="zh">宁波大学附属第一医院博士科学启动基金项目（2025QC30），执行期2025年11月至2028年11月。研究未表征蛋白emENG1的生物学功能，并设计其互作界面调控剂。</p>
+            <p data-lang="en">Doctoral Start-up Fund, The First Affiliated Hospital of Ningbo University, grant 2025QC30 · Nov 2025 – Nov 2028. Characterizes the biological function of emENG1 and designs modulators of its interaction interface.</p>
           </article>
         </div>
       </section>
 
       <section id="events" class="section events-section">
         <div class="section-heading">
-          <p class="section-kicker" data-lang="zh">大事件记录</p>
-          <p class="section-kicker" data-lang="en">Events</p>
-          <h2 data-lang="zh">科研培训、讲座与成员动态</h2>
+          <p class="section-kicker" data-lang="zh">大事件 · 最新在前</p>
+          <p class="section-kicker" data-lang="en">News · latest first</p>
+          <h2 data-lang="zh"><span class="nw">科研培训、</span><span class="nw">讲座与成员动态</span></h2>
           <h2 data-lang="en">Training, seminars, and member updates</h2>
         </div>
         <div class="event-timeline">
@@ -752,38 +703,38 @@
                 <ul class="member-update-list">
                   <li>
                     <time>2025.09.17</time>
-                    <span data-lang="zh">毛海蛟课题组成员杨雯、钟梦林、樊基耿、王轲瑜、李家骏加入。</span>
-                    <span data-lang="en">Yang Wen, Zhong Menglin, Fan Jigeng, Wang Keyu, and Li Jiajun from Haijiao Mao's group joined the laboratory.</span>
+                    <span data-lang="zh">毛海蛟课题组成员杨雯、钟梦林、樊基耿、王轲瑜、李家骏加入实验室。</span>
+                    <span data-lang="en">Wen Yang, Menglin Zhong, Jigeng Fan, Keyu Wang, and Jiajun Li from Haijiao Mao&rsquo;s group joined the lab.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2025-09-26-zhihe.jpg" alt="致和科创中心启用仪式" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2025-09-26-zhihe.jpg" alt="致和科创中心启用仪式" />
                   <time data-lang="zh">2025.09.26</time>
                   <time data-lang="en">2025.09.26</time>
                   <h3 data-lang="zh">致和科创中心启用仪式</h3>
                   <h3 data-lang="en">Opening ceremony of Zhihe Innovation Hub</h3>
-                  <p data-lang="zh">致和科创中心启用，中心实验室平台建设进入新的阶段。</p>
-                  <p data-lang="en">The Zhihe Innovation Hub opened, marking a new stage for the central laboratory platform.</p>
+                  <p data-lang="zh">致和科创中心正式启用，中心实验室平台建设迈入新阶段。</p>
+                  <p data-lang="en">The Zhihe Innovation Hub opened, a new stage in building the Central Laboratory&rsquo;s research platform.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2025-09-28-literature.png" alt="上手科研第一课文献检索与阅读报告封面" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2025-09-28-literature.jpg" alt="上手科研第一课文献检索与阅读报告封面" />
                   <time data-lang="zh">2025.09.28</time>
                   <time data-lang="en">2025.09.28</time>
-                  <h3 data-lang="zh">培训报告：上手科研第一课-文献检索与阅读</h3>
-                  <h3 data-lang="en">Training seminar: literature search and reading</h3>
-                  <p data-lang="zh">围绕文献检索、论文阅读和科研入门方法开展培训报告。</p>
-                  <p data-lang="en">A training seminar on literature search, paper reading, and getting started in research.</p>
+                  <h3 data-lang="zh">培训：上手科研第一课——文献检索与阅读</h3>
+                  <h3 data-lang="en">Training: literature search and reading</h3>
+                  <p data-lang="zh">介绍文献检索、论文阅读与科研入门的基本方法。</p>
+                  <p data-lang="en">An introduction to literature search, reading papers, and first steps in research.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2025-09-29-study-room.jpg" alt="骨科研究生自习室" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2025-09-29-study-room.jpg" alt="骨科研究生自习室" />
                   <time data-lang="zh">2025.09.29</time>
                   <time data-lang="en">2025.09.29</time>
                   <h3 data-lang="zh">骨科研究生自习室启用</h3>
                   <h3 data-lang="en">Orthopedic graduate study room opened</h3>
-                  <p data-lang="zh">骨科研究生自习室启用，为学生日常学习、讨论和科研训练提供空间。</p>
-                  <p data-lang="en">The orthopedic graduate study room opened, providing space for study, discussion, and research training.</p>
+                  <p data-lang="zh">骨科研究生自习室投入使用，为日常学习、讨论与科研训练提供固定空间。</p>
+                  <p data-lang="en">The orthopedic graduate study room opened, giving students a dedicated space for study, discussion, and research training.</p>
                 </article>
               </div>
             </div>
@@ -805,17 +756,17 @@
                   <li>
                     <time>2025.10.07</time>
                     <span data-lang="zh">2023级医学部本科生白圣磊加入课题组。</span>
-                    <span data-lang="en">Bai Shenglei, a 2023 undergraduate student from the Health Science Center, joined the group.</span>
+                    <span data-lang="en">Shenglei Bai, a 2023 undergraduate at the Health Science Center, joined the group.</span>
                   </li>
                   <li>
                     <time>2025.10.10</time>
                     <span data-lang="zh">浙江万里学院姜烁琦研究员加入合作团队。</span>
-                    <span data-lang="en">Researcher Jiang Shuoqi from Zhejiang Wanli University joined the collaborative team.</span>
+                    <span data-lang="en">Shuoqi Jiang of Zhejiang Wanli University joined as a collaborator.</span>
                   </li>
                   <li>
                     <time>2025.10.20</time>
-                    <span data-lang="zh">骨科青年医生李翔、杨成鹏，机械与力学学院研究生任天一加入。</span>
-                    <span data-lang="en">Young orthopedic physicians Li Xiang and Yang Chengpeng, and Ren Tianyi from the School of Mechanical Engineering and Mechanics, joined.</span>
+                    <span data-lang="zh">骨科青年医生李翔、杨成鹏，以及机械与力学学院研究生任天一加入课题组。</span>
+                    <span data-lang="en">Orthopedic surgeons Xiang Li and Chengpeng Yang, and Tianyi Ren from the School of Mechanical Engineering and Mechanics, joined the group.</span>
                   </li>
                 </ul>
               </details>
@@ -825,16 +776,16 @@
                   <time data-lang="en">2025.10.03</time>
                   <h3 data-lang="zh">第一次方桥组会</h3>
                   <h3 data-lang="en">First Fangqiao group meeting</h3>
-                  <p data-lang="zh">方桥院区课题组开展第一次组会，梳理研究任务和协作安排。</p>
-                  <p data-lang="en">The Fangqiao group held its first group meeting to align research tasks and collaboration plans.</p>
+                  <p data-lang="zh">方桥院区课题组召开首次组会，明确研究任务与分工协作。</p>
+                  <p data-lang="en">The Fangqiao group held its first meeting to set research tasks and divide responsibilities.</p>
                 </article>
                 <article class="event-card text-event">
                   <time data-lang="zh">2025.10.13</time>
                   <time data-lang="en">2025.10.13</time>
-                  <h3 data-lang="zh">仪器预约平台实名制认证及准入申请</h3>
-                  <h3 data-lang="en">Instrument reservation platform access</h3>
-                  <p data-lang="zh">推进仪器预约平台实名制认证及准入申请，规范实验平台使用流程。</p>
-                  <p data-lang="en">Real-name verification and access applications were advanced for the instrument reservation platform.</p>
+                  <h3 data-lang="zh">仪器预约平台实名认证与准入申请</h3>
+                  <h3 data-lang="en">Access to the instrument booking platform</h3>
+                  <p data-lang="zh">推进仪器预约平台的实名认证与准入申请，规范共享仪器的使用流程。</p>
+                  <p data-lang="en">Real-name verification and access applications for the instrument booking platform got under way, standardizing how shared equipment is used.</p>
                 </article>
               </div>
             </div>
@@ -856,19 +807,19 @@
                   <li>
                     <time>2025.11.07</time>
                     <span data-lang="zh">2025级医学部本科生陶昕昊加入课题组。</span>
-                    <span data-lang="en">Tao Xinhao, a 2025 undergraduate student from the Health Science Center, joined the group.</span>
+                    <span data-lang="en">Xinhao Tao, a 2025 undergraduate at the Health Science Center, joined the group.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2025-11-17-cell-culture.png" alt="细胞培养技术培训报告封面" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2025-11-17-cell-culture.jpg" alt="细胞培养技术培训报告封面" />
                   <time data-lang="zh">2025.11.17</time>
                   <time data-lang="en">2025.11.17</time>
-                  <h3 data-lang="zh">培训报告：细胞培养技术培训</h3>
-                  <h3 data-lang="en">Training seminar: cell culture technology</h3>
-                  <p data-lang="zh">开展细胞培养技术培训，培训支持来自森贝伽市场部。</p>
-                  <p data-lang="en">A cell culture technology training seminar was held with support from Senbeijia's marketing team.</p>
+                  <h3 data-lang="zh">培训：细胞培养技术</h3>
+                  <h3 data-lang="en">Training: cell culture techniques</h3>
+                  <p data-lang="zh">细胞培养技术培训，由森贝伽市场部提供支持。</p>
+                  <p data-lang="en">Cell culture training, supported by Senbeijia&rsquo;s marketing team.</p>
                 </article>
               </div>
             </div>
@@ -890,7 +841,7 @@
                   <li>
                     <time>2025.12.07</time>
                     <span data-lang="zh">药学部姚思恩药师加入合作团队。</span>
-                    <span data-lang="en">Pharmacist Yao Sien from the Department of Pharmacy joined the collaborative team.</span>
+                    <span data-lang="en">Sien Yao, a pharmacist in the Department of Pharmacy, joined as a collaborator.</span>
                   </li>
                 </ul>
               </details>
@@ -913,51 +864,51 @@
                   <li>
                     <time>2026.01.11</time>
                     <span data-lang="zh">口腔科专硕程俊格加入课题组。</span>
-                    <span data-lang="en">Cheng Junge, a professional master's student in stomatology, joined the group.</span>
+                    <span data-lang="en">Junge Cheng, a professional master&rsquo;s student in stomatology, joined the group.</span>
                   </li>
                   <li>
                     <time>2026.01.30</time>
                     <span data-lang="zh">骨科青年医生修浩楠加入合作团队。</span>
-                    <span data-lang="en">Young orthopedic physician Xiu Haonan joined the collaborative team.</span>
+                    <span data-lang="en">Orthopedic surgeon Haonan Xiu joined as a collaborator.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-01-18-sun-caixia.png" alt="孙彩霞研究员汇报分享现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-01-18-sun-caixia.jpg" alt="孙彩霞研究员汇报分享现场" />
                   <time data-lang="zh">2026.01.18</time>
                   <time data-lang="en">2026.01.18</time>
                   <h3 data-lang="zh">孙彩霞研究员汇报分享</h3>
-                  <h3 data-lang="en">Seminar by Researcher Sun Caixia</h3>
+                  <h3 data-lang="en">Seminar by Caixia Sun</h3>
                   <p data-lang="zh">中心实验室孙彩霞研究员分享《活性氧生成型铁基纳米药物的抗菌功能及机制研究》。</p>
-                  <p data-lang="en">Researcher Sun Caixia from the Central Laboratory presented work on ROS-generating iron-based nanomedicines for antibacterial function and mechanism studies.</p>
+                  <p data-lang="en">Caixia Sun, Research Fellow at the Central Laboratory, presented her work on the antibacterial function and mechanisms of ROS-generating iron-based nanomedicines.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-01-18-xiao-yufeng.png" alt="肖玉峰博士线上汇报截图" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-01-18-xiao-yufeng.jpg" alt="肖玉峰博士线上汇报截图" />
                   <time data-lang="zh">2026.01.18</time>
                   <time data-lang="en">2026.01.18</time>
                   <h3 data-lang="zh">肖玉峰博士线上汇报分享</h3>
-                  <h3 data-lang="en">Online seminar by Dr. Xiao Yufeng</h3>
-                  <p data-lang="zh">中国矿业大学肖玉峰博士线上分享《python机器学习及对话式AI帮助学术写作》。</p>
-                  <p data-lang="en">Dr. Xiao Yufeng from China University of Mining and Technology gave an online seminar on Python machine learning and conversational AI for academic writing.</p>
+                  <h3 data-lang="en">Online seminar by Dr. Yufeng Xiao</h3>
+                  <p data-lang="zh">中国矿业大学肖玉峰博士线上分享《Python机器学习及对话式AI帮助学术写作》。</p>
+                  <p data-lang="en">Dr. Yufeng Xiao of China University of Mining and Technology spoke online about using Python machine learning and conversational AI in academic writing.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-01-21-wb-training.jpg" alt="WB实验培训现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-01-21-wb-training.jpg" alt="WB实验培训现场" />
                   <time data-lang="zh">2026.01.21</time>
                   <time data-lang="en">2026.01.21</time>
                   <h3 data-lang="zh">WB实验培训</h3>
                   <h3 data-lang="en">Western blot training</h3>
-                  <p data-lang="zh">开展WB实验培训，围绕Western blot实验流程与关键操作进行实操训练。</p>
-                  <p data-lang="en">A Western blot training session was held, covering the experimental workflow and key hands-on steps.</p>
+                  <p data-lang="zh">围绕Western blot实验流程与关键操作开展实操培训。</p>
+                  <p data-lang="en">Hands-on training on the Western blot workflow and its critical steps.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-01-25-xu-junpeng.jpg" alt="徐俊鹏研究员汇报分享现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-01-25-xu-junpeng.jpg" alt="徐俊鹏研究员汇报分享现场" />
                   <time data-lang="zh">2026.01.25</time>
                   <time data-lang="en">2026.01.25</time>
                   <h3 data-lang="zh">徐俊鹏研究员汇报分享</h3>
-                  <h3 data-lang="en">Seminar by Researcher Xu Junpeng</h3>
+                  <h3 data-lang="en">Seminar by Junpeng Xu</h3>
                   <p data-lang="zh">中心实验室徐俊鹏研究员分享《智能型生物活性水凝胶治疗脑疾病及机制研究》。</p>
-                  <p data-lang="en">Researcher Xu Junpeng from the Central Laboratory presented work on intelligent bioactive hydrogels for treating brain diseases and related mechanisms.</p>
+                  <p data-lang="en">Junpeng Xu, Research Fellow at the Central Laboratory, presented his work on smart bioactive hydrogels for treating brain disease and the mechanisms involved.</p>
                 </article>
               </div>
             </div>
@@ -973,15 +924,15 @@
               <div class="timeline-event-grid">
                 <article class="event-card wide">
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-02-08-liu-hu-1.jpg?v=20260820" alt="刘荣桓研究员汇报分享现场" />
-                    <img class="event-photo" src="assets/event-2026-02-08-liu-hu-2.jpg?v=20260820" alt="胡碧华研究员汇报分享现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-02-08-liu-hu-1.jpg?v=20260820" alt="刘荣桓研究员汇报分享现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-02-08-liu-hu-2.jpg?v=20260820" alt="胡碧华研究员汇报分享现场" />
                   </div>
                   <time data-lang="zh">2026.02.08</time>
                   <time data-lang="en">2026.02.08</time>
                   <h3 data-lang="zh">刘荣桓、胡碧华研究员汇报分享</h3>
-                  <h3 data-lang="en">Seminars by Researchers Liu Ronghuan and Hu Bihua</h3>
+                  <h3 data-lang="en">Seminars by Ronghuan Liu and Bihua Hu</h3>
                   <p data-lang="zh">浙江万里学院数字产业研究院刘荣桓研究员分享《发光量子点及其生物学应用》；余姚创新研究院胡碧华研究员分享《金属大环化合物基复合材料电催化还原CO2选择性调控及其机理研究》。</p>
-                  <p data-lang="en">Researcher Liu Ronghuan from the Digital Industry Research Institute of Zhejiang Wanli University presented luminescent quantum dots and biological applications; Researcher Hu Bihua from Yuyao Innovation Institute presented metal macrocycle-based composites for selective electrocatalytic CO2 reduction.</p>
+                  <p data-lang="en">Ronghuan Liu (Digital Industry Research Institute, Zhejiang Wanli University) presented luminescent quantum dots and their biological applications; Bihua Hu (Yuyao Innovation Institute) presented metal-macrocycle composites for selective electrocatalytic CO2 reduction and the underlying mechanisms.</p>
                 </article>
               </div>
             </div>
@@ -1003,31 +954,31 @@
                   <li>
                     <time>2026.03.13</time>
                     <span data-lang="zh">核医学科研究生加入课题组相关方向。</span>
-                    <span data-lang="en">Graduate students from the Department of Nuclear Medicine joined related group directions.</span>
+                    <span data-lang="en">Graduate students from the Department of Nuclear Medicine joined related projects in the group.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-03-21-fei-xiang.png" alt="费翔老师AI科研工具经验线上分享" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-03-21-fei-xiang.jpg" alt="费翔老师AI科研工具经验线上分享" />
                   <time data-lang="zh">2026.03.21</time>
                   <time data-lang="en">2026.03.21</time>
-                  <h3 data-lang="zh">费翔老师线上分享</h3>
-                  <h3 data-lang="en">Online sharing by Fei Xiang</h3>
-                  <p data-lang="zh">费翔老师开展AI科研工具经验线上分享。</p>
-                  <p data-lang="en">Fei Xiang gave an online sharing session on experience with AI tools for research.</p>
+                  <h3 data-lang="zh">费翔老师线上分享AI科研工具</h3>
+                  <h3 data-lang="en">Online talk by Xiang Fei on AI research tools</h3>
+                  <p data-lang="zh">费翔老师线上分享使用AI工具开展科研的经验。</p>
+                  <p data-lang="en">Xiang Fei shared practical experience of using AI tools in research.</p>
                 </article>
                 <article class="event-card wide">
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-03-26-zeng-zhang-1.jpg?v=20260817" alt="曾翠玲汇报分享现场" />
-                    <img class="event-photo" src="assets/event-2026-03-26-zeng-zhang-2.jpg?v=20260817" alt="张蓓研究员汇报分享现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-03-26-zeng-zhang-1.jpg?v=20260817" alt="曾翠玲汇报分享现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-03-26-zeng-zhang-2.jpg?v=20260817" alt="张蓓研究员汇报分享现场" />
                   </div>
                   <time data-lang="zh">2026.03.26</time>
                   <time data-lang="en">2026.03.26</time>
                   <h3 data-lang="zh">曾翠玲、张蓓研究员汇报分享</h3>
-                  <h3 data-lang="en">Seminars by Zeng Cuiling and Researcher Zhang Bei</h3>
+                  <h3 data-lang="en">Seminars by Cuiling Zeng and Bei Zhang</h3>
                   <p data-lang="zh">中心实验室曾翠玲分享《骨肉瘤肺转移的分子机制及靶向治疗研究》；张蓓研究员分享《融合胰岛素样生长因子2的溶酶体靶向嵌合体的构建与应用》。</p>
-                  <p data-lang="en">Zeng Cuiling from the Central Laboratory presented work on molecular mechanisms and targeted therapy of osteosarcoma lung metastasis; Researcher Zhang Bei presented lysosome-targeting chimeras fused with insulin-like growth factor 2.</p>
+                  <p data-lang="en">Cuiling Zeng (Central Laboratory) presented the molecular mechanisms and targeted therapy of osteosarcoma lung metastasis; Bei Zhang (Research Fellow) presented the construction and use of lysosome-targeting chimeras fused with insulin-like growth factor 2.</p>
                 </article>
               </div>
             </div>
@@ -1042,21 +993,21 @@
             <div class="timeline-month-content">
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-04-02-wb-training.jpg" alt="WB实验理论及实操全流程培训现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-04-02-wb-training.jpg" alt="WB实验理论及实操全流程培训现场" />
                   <time data-lang="zh">2026.04.02-03</time>
                   <time data-lang="en">2026.04.02-03</time>
                   <h3 data-lang="zh">WB实验理论及实操全流程讲解</h3>
-                  <h3 data-lang="en">WB experiment theory and workflow training</h3>
-                  <p data-lang="zh">赛维尔生物公司技术工程师开展《WB实验理论及实操全流程讲解》培训。</p>
-                  <p data-lang="en">A technical engineer from Servicebio delivered training on Western blot experiment theory and the complete practical workflow.</p>
+                  <h3 data-lang="en">Western blot: theory and full workflow</h3>
+                  <p data-lang="zh">赛维尔生物技术工程师开展《WB实验理论及实操全流程讲解》培训，系统讲解实验原理与完整操作流程。</p>
+                  <p data-lang="en">A Servicebio technical engineer walked through the principles and the complete hands-on workflow of Western blotting.</p>
                 </article>
                 <article class="event-card text-event">
                   <time data-lang="zh">2026.04.24</time>
                   <time data-lang="en">2026.04.24</time>
                   <h3 data-lang="zh">专利知识讲座</h3>
-                  <h3 data-lang="en">Patent knowledge seminar</h3>
-                  <p data-lang="zh">开展专利知识讲座，围绕科研成果保护与专利申请基础进行交流。</p>
-                  <p data-lang="en">A patent knowledge seminar was held to discuss research outcome protection and patent application basics.</p>
+                  <h3 data-lang="en">Seminar on patents</h3>
+                  <p data-lang="zh">介绍科研成果保护与专利申请的基础知识。</p>
+                  <p data-lang="en">An introduction to protecting research results and the basics of applying for patents.</p>
                 </article>
               </div>
             </div>
@@ -1078,24 +1029,24 @@
                   <li>
                     <time>2026.05.19</time>
                     <span data-lang="zh">核医学科段劭加入课题组相关方向。</span>
-                    <span data-lang="en">Duan Shao from the Department of Nuclear Medicine joined related group directions.</span>
+                    <span data-lang="en">Shao Duan from the Department of Nuclear Medicine joined related projects in the group.</span>
                   </li>
                   <li>
                     <time>2026.05.25</time>
-                    <span data-lang="zh">移除李翔、杨成鹏、修浩楠、游伟、李蔚然等短期不在方桥实验室开展实验的组员。</span>
-                    <span data-lang="en">Members including Li Xiang, Yang Chengpeng, Xiu Haonan, You Wei, and Li Weiran were removed from the temporary list because they were not conducting experiments in Fangqiao Lab in the short term.</span>
+                    <span data-lang="zh">李翔、杨成鹏、修浩楠、游伟、李蔚然等组员因短期内不在方桥实验室开展实验，暂不列入成员名单。</span>
+                    <span data-lang="en">Xiang Li, Chengpeng Yang, Haonan Xiu, Wei You, Weiran Li, and others were taken off the current member list, as they are not running experiments at Fangqiao Lab in the near term.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-05-21-majorbio-multiomics.jpg" alt="美吉生物多组学报告封面" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-05-21-majorbio-multiomics.jpg" alt="美吉生物多组学报告封面" />
                   <time data-lang="zh">2026.05.21</time>
                   <time data-lang="en">2026.05.21</time>
                   <h3 data-lang="zh">美吉生物多组学报告</h3>
                   <h3 data-lang="en">Multi-omics seminar by Majorbio</h3>
                   <p data-lang="zh">美吉生物分享《单细胞及时空多组学在骨科领域应用》。</p>
-                  <p data-lang="en">Majorbio presented applications of single-cell and spatial-temporal multi-omics in orthopedics.</p>
+                  <p data-lang="en">Majorbio presented applications of single-cell and spatiotemporal multi-omics in orthopedics.</p>
                 </article>
               </div>
             </div>
@@ -1126,36 +1077,36 @@
                   <time data-lang="zh">2026.06.03</time>
                   <time data-lang="en">2026.06.03</time>
                   <h3 data-lang="zh">东方理工大学数智生物创新研究院报告</h3>
-                  <h3 data-lang="en">Seminar by Eastern Institute of Technology</h3>
-                  <p data-lang="zh">东方理工大学数智生物创新研究院开展学术报告。</p>
-                  <p data-lang="en">The Institute for Digital-Intelligent Bioinnovation at Eastern Institute of Technology delivered an academic seminar.</p>
+                  <h3 data-lang="en">Seminar from the Eastern Institute of Technology</h3>
+                  <p data-lang="zh">东方理工大学数智生物创新研究院作学术报告。</p>
+                  <p data-lang="en">The Institute for Digital-Intelligent Bioinnovation at the Eastern Institute of Technology gave an academic seminar.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-06-14-shi-yifeng.png" alt="施益锋博士汇报分享报告封面" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-06-14-shi-yifeng.jpg" alt="施益锋博士汇报分享报告封面" />
                   <time data-lang="zh">2026.06.14</time>
                   <time data-lang="en">2026.06.14</time>
                   <h3 data-lang="zh">施益锋博士汇报分享</h3>
-                  <h3 data-lang="en">Seminar by Dr. Shi Yifeng</h3>
+                  <h3 data-lang="en">Seminar by Dr. Yifeng Shi</h3>
                   <p data-lang="zh">脊柱外科施益锋博士分享《PSMD14通过稳定SLC7A11抑制骨细胞铁死亡缓解糖皮质激素性骨质疏松症的机制研究》。</p>
-                  <p data-lang="en">Dr. Shi Yifeng from spine surgery presented work on how PSMD14 stabilizes SLC7A11 to inhibit osteocyte ferroptosis and alleviate glucocorticoid-induced osteoporosis.</p>
+                  <p data-lang="en">Dr. Yifeng Shi (Spine Surgery) presented how PSMD14 stabilizes SLC7A11 to inhibit osteocyte ferroptosis and relieve glucocorticoid-induced osteoporosis.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-06-17-meng-yang.jpg" alt="孟祥楠、杨诗琪报告与闭门会线上通知" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-06-17-meng-yang.jpg" alt="孟祥楠、杨诗琪报告与闭门会线上通知" />
                   <time data-lang="zh">2026.06.17</time>
                   <time data-lang="en">2026.06.17</time>
                   <h3 data-lang="zh">孟祥楠、杨诗琪报告与闭门会</h3>
-                  <h3 data-lang="en">Seminars by Meng Xiangnan and Yang Shiqi</h3>
-                  <p data-lang="zh">比利时鲁汶大学医学院博士后孟祥楠分享《Double-coated Nanoliposomes and Intestinal Health》，安徽农业大学林学与园林学院讲师杨诗琪分享《白酒酿造固体副产物的高值化利用研究》，并就推进精密组织切片合作举行小型闭门会。</p>
-                  <p data-lang="en">Postdoctoral researcher Meng Xiangnan from KU Leuven Faculty of Medicine presented Double-coated Nanoliposomes and Intestinal Health; Lecturer Yang Shiqi from Anhui Agricultural University presented valorization of solid by-products from Baijiu brewing, followed by a small closed-door meeting on precision tissue slice collaboration.</p>
+                  <h3 data-lang="en">Seminars by Xiangnan Meng and Shiqi Yang</h3>
+                  <p data-lang="zh">比利时鲁汶大学医学院博士后孟祥楠分享《Double-coated Nanoliposomes and Intestinal Health》，安徽农业大学林学与园林学院讲师杨诗琪分享《白酒酿造固体副产物的高值化利用研究》；会后就推进精密组织切片合作举行了小型闭门会。</p>
+                  <p data-lang="en">Xiangnan Meng, postdoctoral researcher at the KU Leuven Faculty of Medicine, presented &ldquo;Double-coated Nanoliposomes and Intestinal Health&rdquo;; Shiqi Yang, lecturer at Anhui Agricultural University, presented high-value uses of solid by-products from Baijiu brewing. A small closed-door meeting followed on advancing a precision tissue-slicing collaboration.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-06-23-first-animal-experiment.png" alt="方桥实验室第一批动物实验结束" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-06-23-first-animal-experiment.jpg" alt="方桥实验室第一批动物实验结束" />
                   <time data-lang="zh">2026.06.23</time>
                   <time data-lang="en">2026.06.23</time>
-                  <h3 data-lang="zh">方桥实验室第一批动物实验结束</h3>
+                  <h3 data-lang="zh">方桥实验室第一批动物实验完成</h3>
                   <h3 data-lang="en">First Fangqiao Lab animal experiment completed</h3>
-                  <p data-lang="zh">方桥实验室第一批动物实验结束，执行人为钟梦林。</p>
-                  <p data-lang="en">The first Fangqiao Lab animal experiment was completed by Zhong Menglin.</p>
+                  <p data-lang="zh">方桥实验室第一批动物实验顺利完成，由钟梦林执行。</p>
+                  <p data-lang="en">Fangqiao Lab&rsquo;s first animal experiment, carried out by Menglin Zhong, was completed.</p>
                 </article>
               </div>
             </div>
@@ -1198,81 +1149,81 @@
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-07-05-wang-li-preproposal.jpg" alt="王轲瑜、李家骏课题组预开题现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-07-05-wang-li-preproposal.jpg" alt="王轲瑜、李家骏课题组预开题现场" />
                   <time data-lang="zh">2026.07.05</time>
                   <time data-lang="en">2026.07.05</time>
                   <h3 data-lang="zh">王轲瑜、李家骏课题组预开题</h3>
-                  <h3 data-lang="en">Pre-proposal presentations by Wang Keyu and Li Jiajun</h3>
-                  <p data-lang="zh">温州医科大学研究生王轲瑜、李家骏在课题组预开题。</p>
-                  <p data-lang="en">Wang Keyu and Li Jiajun held their group pre-proposal presentations.</p>
+                  <h3 data-lang="en">Pre-proposal presentations by Keyu Wang and Jiajun Li</h3>
+                  <p data-lang="zh">温州医科大学研究生王轲瑜、李家骏在课题组内进行预开题汇报。</p>
+                  <p data-lang="en">Wenzhou Medical University graduate students Keyu Wang and Jiajun Li gave pre-proposal presentations within the group.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-07-10-wmu-surgery-proposal.jpg" alt="温医大外科学专硕开题答辩会现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-07-10-wmu-surgery-proposal.jpg" alt="温医大外科学专硕开题答辩会现场" />
                   <time data-lang="zh">2026.07.10</time>
                   <time data-lang="en">2026.07.10</time>
                   <h3 data-lang="zh">温医大外科学专硕开题答辩</h3>
-                  <h3 data-lang="en">Wenzhou Medical University surgery master's proposal defense</h3>
-                  <p data-lang="zh">温医大外科学专硕举行开题答辩，这是方桥实验室建组的第一批开题答辩会。</p>
-                  <p data-lang="en">Wenzhou Medical University surgery master's students held their thesis proposal defense, marking the first proposal defense meeting since Fangqiao Lab was established.</p>
+                  <h3 data-lang="en">Thesis proposal defense for WMU surgery master&rsquo;s students</h3>
+                  <p data-lang="zh">温州医科大学外科学专硕研究生举行开题答辩，这是方桥实验室建组以来的首批开题答辩。</p>
+                  <p data-lang="en">Professional master&rsquo;s students in surgery from Wenzhou Medical University defended their thesis proposals, the first proposal defenses since Fangqiao Lab was established.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-07-19-duan-hongpeng-tnbc.jpg" alt="段鸿蓬老师分享三阴性乳腺癌化疗耐药微环境重塑报告现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-07-19-duan-hongpeng-tnbc.jpg" alt="段鸿蓬老师分享三阴性乳腺癌化疗耐药微环境重塑报告现场" />
                   <time data-lang="zh">2026.07.19</time>
                   <time data-lang="en">2026.07.19</time>
                   <h3 data-lang="zh">段鸿蓬老师分享三阴性乳腺癌化疗耐药研究</h3>
                   <h3 data-lang="en">Seminar by Hongpeng Duan on TNBC chemoresistance</h3>
                   <p data-lang="zh">超声科段鸿蓬老师分享《三阴性乳腺癌化疗耐药微环境重塑：免疫逃逸机制解析与靶向递送体系研发》。</p>
-                  <p data-lang="en">Hongpeng Duan from the Department of Ultrasound shared a seminar titled "Chemotherapy-resistant microenvironment remodeling in triple-negative breast cancer: mechanisms of immune escape and development of targeted delivery systems."</p>
+                  <p data-lang="en">Hongpeng Duan (Department of Ultrasound) presented &ldquo;Remodeling the chemoresistant microenvironment in triple-negative breast cancer: immune-escape mechanisms and targeted delivery systems.&rdquo;</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-07-26-li-guoqiang-agent-skills.png" alt="李国强老师Agent中转站与skills科研应用线上汇报截图" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-07-26-li-guoqiang-agent-skills.jpg" alt="李国强老师Agent中转站与skills科研应用线上汇报截图" />
                   <time data-lang="zh">2026.07.26</time>
                   <time data-lang="en">2026.07.26</time>
-                  <h3 data-lang="zh">李国强老师线上分享Agent与skills科研应用</h3>
-                  <h3 data-lang="en">Online seminar by Guoqiang Li on Agent and skills for research</h3>
-                  <p data-lang="zh">杭州医学院李国强老师作《Agent 中转站 skills如何加速科研》线上汇报分享。</p>
-                  <p data-lang="en">Guoqiang Li from Hangzhou Medical College gave an online seminar titled "Agent transfer station: how skills accelerate research."</p>
+                  <h3 data-lang="zh">李国强老师线上分享Agent与Skills科研应用</h3>
+                  <h3 data-lang="en">Online talk by Guoqiang Li on agents and skills in research</h3>
+                  <p data-lang="zh">杭州医学院李国强老师线上分享《Agent中转站：Skills如何加速科研》。</p>
+                  <p data-lang="en">Guoqiang Li of Hangzhou Medical College gave an online talk, &ldquo;Agent hubs: how skills accelerate research.&rdquo;</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-07-29-senior-student-mentoring-standards.jpg" alt="高年级研究生商讨低年级研究生带教和实验室规范建设" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-07-29-senior-student-mentoring-standards.jpg" alt="高年级研究生商讨低年级研究生带教和实验室规范建设" />
                   <time data-lang="zh">2026.07.29</time>
                   <time data-lang="en">2026.07.29</time>
                   <h3 data-lang="zh">高年级研究生商讨带教与实验室规范</h3>
                   <h3 data-lang="en">Senior graduate students discussed mentoring and lab standards</h3>
-                  <p data-lang="zh">高年级研究生商讨如何带教低年级研究生和建立实验室规范。</p>
+                  <p data-lang="zh">高年级研究生共同商讨低年级研究生的带教方式与实验室规范建设。</p>
                   <p data-lang="en">Senior graduate students discussed how to mentor junior students and establish shared laboratory standards.</p>
                 </article>
                 <article class="event-card wide">
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-1.jpg" alt="Will Shu教授参加智能骨科与生物医学工程联合实验室交流会" />
-                    <img class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-2.jpg" alt="Asimina Kazakidi教授参加智能骨科与生物医学工程联合实验室交流会" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-1.jpg" alt="Will Shu教授参加智能骨科与生物医学工程联合实验室交流会" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-2.jpg" alt="Asimina Kazakidi教授参加智能骨科与生物医学工程联合实验室交流会" />
                   </div>
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-3.jpg" alt="YiFei Wan研究员参加智能骨科与生物医学工程联合实验室交流会" />
-                    <img class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-4.jpg" alt="英国思克莱德大学专家访问交流会现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-3.jpg" alt="YiFei Wan研究员参加智能骨科与生物医学工程联合实验室交流会" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-strathclyde-exchange-4.jpg" alt="英国思克莱德大学专家访问交流会现场" />
                   </div>
                   <time data-lang="zh">2026.07.31</time>
                   <time data-lang="en">2026.07.31</time>
-                  <h3 data-lang="zh">英国思克莱德大学专家访问并参加联合实验室交流会</h3>
-                  <h3 data-lang="en">University of Strathclyde experts visited for a joint laboratory exchange</h3>
-                  <p data-lang="zh">英国思克莱德大学生物医学工程系系主任Will Shu教授、研究主任Asimina Kazakidi教授、YiFei Wan研究员访问，并参与智能骨科与生物医学工程联合实验室交流会。</p>
-                  <p data-lang="en">Professor Will Shu, Head of Biomedical Engineering at the University of Strathclyde, Professor Asimina Kazakidi, Director of Research, and Researcher YiFei Wan visited and joined the exchange meeting of the Joint Laboratory for Intelligent Orthopedics and Biomedical Engineering.</p>
+                  <h3 data-lang="zh">英国思克莱德大学专家来访，参加联合实验室交流会</h3>
+                  <h3 data-lang="en">University of Strathclyde delegation visits the joint lab</h3>
+                  <p data-lang="zh">英国思克莱德大学生物医学工程系系主任Will Shu教授、研究主任Asimina Kazakidi教授及YiFei Wan研究员来访，参加智能骨科与生物医学工程联合实验室交流会。</p>
+                  <p data-lang="en">Prof. Will Shu (Head of Biomedical Engineering), Prof. Asimina Kazakidi (Director of Research), and researcher YiFei Wan from the University of Strathclyde visited and joined an exchange meeting of the Joint Laboratory for Intelligent Orthopedics and Biomedical Engineering.</p>
                 </article>
                 <article class="event-card wide">
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-1.jpg" alt="YiFei Wan研究员作微血管生物制造报告" />
-                    <img class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-2.jpg" alt="YiFei Wan研究员在方桥实验室开展协同实验指导" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-1.jpg" alt="YiFei Wan研究员作微血管生物制造报告" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-2.jpg" alt="YiFei Wan研究员在方桥实验室开展协同实验指导" />
                   </div>
                   <div class="event-photo-pair">
-                    <img class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-3.jpg" alt="方桥实验室欢迎YiFei Wan研究员到访指导" />
-                    <img class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-4.jpg" alt="宁波市国际科技合作项目推进交流现场" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-3.jpg" alt="方桥实验室欢迎YiFei Wan研究员到访指导" />
+                    <img loading="lazy" class="event-photo" src="assets/event-2026-07-31-yifei-wan-lab-4.jpg" alt="宁波市国际科技合作项目推进交流现场" />
                   </div>
                   <time data-lang="zh">2026.07.31</time>
                   <time data-lang="en">2026.07.31</time>
                   <h3 data-lang="zh">YiFei Wan研究员开展协同实验与指导</h3>
-                  <h3 data-lang="en">YiFei Wan begins collaborative experiments and mentoring</h3>
-                  <p data-lang="zh">英国思克莱德大学生物医学工程系YiFei Wan研究员在方桥实验室展开为期两周的协同实验与指导。</p>
-                  <p data-lang="en">Researcher YiFei Wan from the Department of Biomedical Engineering at the University of Strathclyde began a two-week collaborative experiment and mentoring program at Fangqiao Lab.</p>
+                  <h3 data-lang="en">YiFei Wan starts two weeks of joint experiments</h3>
+                  <p data-lang="zh">英国思克莱德大学生物医学工程系YiFei Wan研究员在方桥实验室开展为期两周的协同实验与指导。</p>
+                  <p data-lang="en">YiFei Wan of Strathclyde&rsquo;s Department of Biomedical Engineering began two weeks of joint experiments and hands-on mentoring at Fangqiao Lab.</p>
                 </article>
               </div>
             </div>
@@ -1293,49 +1244,49 @@
                 <ul class="member-update-list">
                   <li>
                     <time datetime="2026-08-27">2026.08.27</time>
-                    <span data-lang="zh">宁大一院创伤骨科的罗李博士加入课题组。</span>
+                    <span data-lang="zh">宁波大学附属第一医院创伤骨科罗李博士加入课题组。</span>
                     <span data-lang="en">Dr. Li Luo from the Department of Orthopedic Trauma at The First Affiliated Hospital of Ningbo University joined the research group.</span>
                   </li>
                 </ul>
               </details>
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-08-03-second-animal-experiment.jpg" alt="方桥实验室第二批动物实验现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-08-03-second-animal-experiment.jpg" alt="方桥实验室第二批动物实验现场" />
                   <time data-lang="zh">2026.08.03</time>
                   <time data-lang="en">2026.08.03</time>
-                  <h3 data-lang="zh">方桥实验室第二批动物实验结束</h3>
+                  <h3 data-lang="zh">方桥实验室第二批动物实验完成</h3>
                   <h3 data-lang="en">Second Fangqiao Lab animal experiment completed</h3>
-                  <p data-lang="zh">方桥实验室第二批动物实验结束，执行人为邵一丁。</p>
-                  <p data-lang="en">The second Fangqiao Lab animal experiment was completed by Yiding Shao.</p>
+                  <p data-lang="zh">方桥实验室第二批动物实验顺利完成，由邵一丁执行。</p>
+                  <p data-lang="en">Fangqiao Lab&rsquo;s second animal experiment, carried out by Yiding Shao, was completed.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-08-04-li-yinzhe-training.jpg" alt="郦殷浙开展引物设计、质粒构建转化及蛋白纯化培训现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-08-04-li-yinzhe-training.jpg" alt="郦殷浙开展引物设计、质粒构建转化及蛋白纯化培训现场" />
                   <time data-lang="zh">2026.08.04</time>
                   <time data-lang="en">2026.08.04</time>
                   <h3 data-lang="zh">郦殷浙开展分子克隆与蛋白纯化培训</h3>
                   <h3 data-lang="en">Molecular cloning and protein purification training by Yinzhe Li</h3>
-                  <p data-lang="zh">邀请浙江工业大学生物工程学院研究生郦殷浙，进行引物设计、质粒构建转化及蛋白纯化理论及实操培训。</p>
-                  <p data-lang="en">Yinzhe Li, a graduate student from the College of Biotechnology and Bioengineering at Zhejiang University of Technology, was invited to provide theoretical and hands-on training on primer design, plasmid construction and transformation, and protein purification.</p>
+                  <p data-lang="zh">邀请浙江工业大学生物工程学院研究生郦殷浙，讲授引物设计、质粒构建与转化及蛋白纯化，并进行实操培训。</p>
+                  <p data-lang="en">Yinzhe Li, a graduate student at the College of Biotechnology and Bioengineering, Zhejiang University of Technology, taught primer design, plasmid construction and transformation, and protein purification, with hands-on practice.</p>
                 </article>
                 <article class="event-card text-event">
                   <time data-lang="zh">2026.08.05</time>
                   <time data-lang="en">2026.08.05</time>
-                  <h3 data-lang="zh">研讨AI辅助蛋白设计与PET示踪剂</h3>
+                  <h3 data-lang="zh">AI辅助蛋白设计与PET示踪剂研讨</h3>
                   <h3 data-lang="en">Roundtable on AI-assisted protein design and PET tracers</h3>
-                  <p data-lang="zh">苏州系统医学研究所王林博士、南方医科大学珠江医院卢卓健博士参与研讨，围绕分子影像探针的现状与挑战、AI辅助分子设计的探索与问题，以及解决方案和未来方向展开交流。</p>
+                  <p data-lang="zh">苏州系统医学研究所王林博士、南方医科大学珠江医院卢卓健博士参与研讨，围绕分子影像探针的现状与挑战、AI辅助分子设计的探索与问题，以及可能的解决方案和未来方向展开交流。</p>
                   <p data-lang="en">Dr. Lin Wang from the Suzhou Institute of Systems Medicine and Dr. Zhuojian Lu from Zhujiang Hospital, Southern Medical University, joined a roundtable on molecular imaging probes, AI-assisted molecular design, current challenges, potential solutions, and future directions.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-08-13-majorbio-literature.jpg" alt="美吉生物肩袖损伤单细胞空间组学文献解读与实验质控培训封面" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-08-13-majorbio-literature.jpg" alt="美吉生物肩袖损伤单细胞空间组学文献解读与实验质控培训封面" />
                   <time data-lang="zh">2026.08.13</time>
                   <time data-lang="en">2026.08.13</time>
-                  <h3 data-lang="zh">美吉生物文献解读</h3>
-                  <h3 data-lang="en">Majorbio literature interpretation</h3>
+                  <h3 data-lang="zh">美吉生物文献解读与质控培训</h3>
+                  <h3 data-lang="en">Literature review and QC training by Majorbio</h3>
                   <p data-lang="zh">美吉生物开展肩袖损伤单细胞空间组学文献解读与实验质控培训。</p>
                   <p data-lang="en">Majorbio delivered literature interpretation and experimental quality-control training on single-cell spatial omics for rotator cuff injury.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-08-16-yifei-wan-return.jpg" alt="YiFei Wan研究员结束联合实验后返英前合影" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-08-16-yifei-wan-return.jpg" alt="YiFei Wan研究员结束联合实验后返英前合影" />
                   <time data-lang="zh">2026.08.16</time>
                   <time data-lang="en">2026.08.16</time>
                   <h3 data-lang="zh">YiFei Wan研究员结束联合实验返英</h3>
@@ -1344,12 +1295,12 @@
                   <p data-lang="en">Researcher YiFei Wan concluded a two-week joint experiment at Fangqiao Lab and returned to the University of Strathclyde in the UK.</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-08-29-wu-yulun-guidance.jpg" alt="吴雨伦博士在方桥开展MOF合成及纳米酶机理分析指导" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-08-29-wu-yulun-guidance.jpg" alt="吴雨伦博士在方桥开展MOF合成及纳米酶机理分析指导" />
                   <time data-lang="zh">2026.08.29</time>
                   <time data-lang="en">2026.08.29</time>
                   <h3 data-lang="zh">吴雨伦博士开展实验指导</h3>
                   <h3 data-lang="en">Experimental guidance by Dr. Yulun Wu</h3>
-                  <p data-lang="zh">南京大学化学学院吴雨伦博士在方桥进行MOF合成及纳米酶机理分析指导。</p>
+                  <p data-lang="zh">南京大学化学学院吴雨伦博士在方桥实验室指导MOF合成与纳米酶机理分析。</p>
                   <p data-lang="en">Dr. Yulun Wu from the School of Chemistry, Nanjing University, provided guidance at Fangqiao Lab on MOF synthesis and nanozyme mechanism analysis.</p>
                 </article>
               </div>
@@ -1365,7 +1316,7 @@
             <div class="timeline-month-content">
               <div class="timeline-event-grid">
                 <article class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-09-03-wu-yulun-hydrogel.jpg" alt="吴雨伦博士纳米颗粒-水凝胶体系测试与数据分析报告封面" />
+                  <img loading="lazy" class="event-photo contain" src="assets/event-2026-09-03-wu-yulun-hydrogel.jpg" alt="吴雨伦博士纳米颗粒-水凝胶体系测试与数据分析报告封面" />
                   <time data-lang="zh">2026.09.03</time>
                   <time data-lang="en">2026.09.03</time>
                   <h3 data-lang="zh">吴雨伦博士汇报分享</h3>
@@ -1374,13 +1325,13 @@
                   <p data-lang="en">Dr. Yulun Wu from the School of Chemistry, Nanjing University, presented “Nanoparticle-Hydrogel System Testing and Data Analysis.”</p>
                 </article>
                 <article class="event-card">
-                  <img class="event-photo" src="assets/event-2026-09-07-fan-jigeng-chatgpt-training.png" alt="樊基耿分享ChatGPT API key更换及模型使用培训现场" />
+                  <img loading="lazy" class="event-photo" src="assets/event-2026-09-07-fan-jigeng-chatgpt-training.jpg" alt="樊基耿分享ChatGPT API key更换及模型使用培训现场" />
                   <time data-lang="zh">2026.09.07</time>
                   <time data-lang="en">2026.09.07</time>
-                  <h3 data-lang="zh">樊基耿分享ChatGPT API与模型使用培训</h3>
-                  <h3 data-lang="en">ChatGPT API and model training by Jigeng Fan</h3>
-                  <p data-lang="zh">樊基耿分享《ChatGPT API key更换及模型使用培训》。</p>
-                  <p data-lang="en">Jigeng Fan delivered training on changing ChatGPT API keys and using models.</p>
+                  <h3 data-lang="zh">樊基耿讲解ChatGPT API与模型使用</h3>
+                  <h3 data-lang="en">Jigeng Fan on the ChatGPT API and model use</h3>
+                  <p data-lang="zh">樊基耿讲解ChatGPT API key的更换方法及各模型的使用。</p>
+                  <p data-lang="en">Jigeng Fan explained how to switch ChatGPT API keys and how to use the different models.</p>
                 </article>
                 <article id="event-2026-09-10" class="event-card">
                   <img class="event-photo contain" src="assets/event-2026-09-10-teachers-day.jpg" alt="课题组成员庆祝第42个教师节合影" loading="lazy" />
@@ -1388,8 +1339,8 @@
                   <time data-lang="en" datetime="2026-09-10">2026.09.10</time>
                   <h3 data-lang="zh">第42个教师节</h3>
                   <h3 data-lang="en">42nd Teachers' Day</h3>
-                  <p data-lang="zh">课题组成员庆祝第42个教师节。</p>
-                  <p data-lang="en">Research group members celebrated China's 42nd Teachers' Day.</p>
+                  <p data-lang="zh">课题组成员共同庆祝第42个教师节。</p>
+                  <p data-lang="en">Group members celebrated China&rsquo;s 42nd Teachers&rsquo; Day together.</p>
                 </article>
               </div>
             </div>
@@ -1404,31 +1355,31 @@
             <div class="timeline-month-content">
               <div class="timeline-event-grid">
                 <article id="event-2026-10-11" class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-10-11-omics-data-analysis.png" alt="组学数据分析培训中展示的蛋白组学分析流程" loading="lazy" />
+                  <img class="event-photo contain" src="assets/event-2026-10-11-omics-data-analysis.jpg" alt="组学数据分析培训中展示的蛋白组学分析流程" loading="lazy" />
                   <time data-lang="zh" datetime="2026-10-11">2026.10.11</time>
                   <time data-lang="en" datetime="2026-10-11">2026.10.11</time>
-                  <h3 data-lang="zh">组学数据分析</h3>
-                  <h3 data-lang="en">Omics data analysis</h3>
-                  <p data-lang="zh">张壮伟、樊基耿详细解读了蛋白组学结题报告的核心图表，并实操演示了火山图、热图及GO/KEGG富集分析的绘制流程，最后推荐了相关数据分析与作图平台。</p>
-                  <p data-lang="en">Zhuangwei Zhang and Jigeng Fan provided a detailed interpretation of the key figures in a final proteomics report and demonstrated how to generate volcano plots, heatmaps, and GO/KEGG enrichment plots. They also recommended platforms for data analysis and visualization.</p>
+                  <h3 data-lang="zh">组学数据分析培训</h3>
+                  <h3 data-lang="en">Omics data analysis workshop</h3>
+                  <p data-lang="zh">张壮伟、樊基耿解读了蛋白组学结题报告中的核心图表，现场演示火山图、热图及GO/KEGG富集分析的绘制流程，并推荐了常用的数据分析与作图平台。</p>
+                  <p data-lang="en">Zhuangwei Zhang and Jigeng Fan walked through the key figures of a proteomics report, demonstrated how to make volcano plots, heatmaps, and GO/KEGG enrichment plots, and recommended tools for data analysis and visualization.</p>
                 </article>
                 <article id="event-2026-10-15" class="event-card">
-                  <img class="event-photo contain" src="assets/event-2026-10-15-zhang-graduate-supervisor.png" alt="张壮伟受聘浙江海洋大学食品与药学学院药学专业研究生校外导师聘书" loading="lazy" />
+                  <img class="event-photo contain" src="assets/event-2026-10-15-zhang-graduate-supervisor.jpg" alt="张壮伟受聘浙江海洋大学食品与药学学院药学专业研究生校外导师聘书" loading="lazy" />
                   <time data-lang="zh" datetime="2026-10-15">2026.10.15</time>
                   <time data-lang="en" datetime="2026-10-15">2026.10.15</time>
                   <h3 data-lang="zh">张壮伟受聘研究生校外导师</h3>
                   <h3 data-lang="en">Zhuangwei Zhang appointed external graduate supervisor</h3>
-                  <p data-lang="zh">张壮伟受聘浙江海洋大学食药学院药学专业研究生校外导师。</p>
-                  <p data-lang="en">Zhuangwei Zhang was appointed as an external graduate supervisor for the Pharmacy program at the School of Food Science and Pharmacy, Zhejiang Ocean University.</p>
+                  <p data-lang="zh">张壮伟受聘为浙江海洋大学食品与药学学院药学专业研究生校外导师。</p>
+                  <p data-lang="en">Zhuangwei Zhang was appointed external graduate supervisor for the Pharmacy program at the School of Food Science and Pharmacy, Zhejiang Ocean University.</p>
                 </article>
                 <article id="event-2026-10-22" class="event-card">
                   <img class="event-photo contain" src="assets/event-2026-10-22-zhou-yang-discussion.jpg" alt="周扬研究员在方桥实验室参加学术研讨和课题合作洽谈现场" loading="lazy" />
                   <time data-lang="zh" datetime="2026-10-22">2026.10.22</time>
                   <time data-lang="en" datetime="2026-10-22">2026.10.22</time>
-                  <h3 data-lang="zh">周扬研究员课题指导</h3>
-                  <h3 data-lang="en">Research guidance by Prof. Yang Zhou</h3>
-                  <p data-lang="zh">中科院宁波材料所慈溪医工所周扬研究员应邀在方桥实验室参加学术研讨和课题合作洽谈。</p>
-                  <p data-lang="en">Prof. Yang Zhou from the Cixi Institute of Biomedical Engineering, Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences, was invited to Fangqiao Lab for academic discussions and talks on research collaboration.</p>
+                  <h3 data-lang="zh">周扬研究员来访指导</h3>
+                  <h3 data-lang="en">Visit and research guidance by Prof. Yang Zhou</h3>
+                  <p data-lang="zh">中国科学院宁波材料技术与工程研究所慈溪生物医学工程研究所周扬研究员应邀来到方桥实验室，参加学术研讨并洽谈课题合作。</p>
+                  <p data-lang="en">Prof. Yang Zhou of the Cixi Institute of Biomedical Engineering (Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences) visited Fangqiao Lab at our invitation for academic discussions and talks on research collaboration.</p>
                 </article>
                 <article id="event-2026-10-25" class="event-card">
                   <img class="event-photo contain" src="assets/event-2026-10-25-haijiao-lab-team-building.jpg" alt="Haijiao Lab成员在杭州马术中心团建合影" loading="lazy" />
@@ -1436,8 +1387,8 @@
                   <time data-lang="en" datetime="2026-10-25">2026.10.25</time>
                   <h3 data-lang="zh">Haijiao Lab团建活动</h3>
                   <h3 data-lang="en">Haijiao Lab team-building outing</h3>
-                  <p data-lang="zh">Haijiao Lab导师组、博士组、学硕组、专硕组、本科生前往杭州马术中心进行团建。</p>
-                  <p data-lang="en">Haijiao Lab faculty mentors, doctoral students, academic and professional master's students, and undergraduates visited the Hangzhou Equestrian Center for a team-building outing.</p>
+                  <p data-lang="zh">Haijiao Lab的导师、博士生、学术型与专业型硕士生及本科生一同前往杭州马术中心团建。</p>
+                  <p data-lang="en">Haijiao Lab mentors, doctoral students, master&rsquo;s students, and undergraduates spent a team-building day at the Hangzhou Equestrian Center.</p>
                 </article>
               </div>
             </div>
@@ -1449,13 +1400,14 @@
         <div>
           <p class="section-kicker" data-lang="zh">联系方式</p>
           <p class="section-kicker" data-lang="en">Contact</p>
-          <h2 data-lang="zh">合作与交流</h2>
-          <h2 data-lang="en">Collaboration and Contact</h2>
+          <h2 data-lang="zh"><span class="nw">合作与交流</span></h2>
+          <h2 data-lang="en">Collaboration and contact</h2>
           <p data-lang="zh">
-            欢迎开展合作讨论｜欢迎本科实习交流。
+            欢迎就科研合作与我们联系，也欢迎本科生前来实习交流。
           </p>
           <p data-lang="en">
-            Collaboration discussions and undergraduate internship inquiries are welcome.
+            We welcome research collaborations. Undergraduates interested in an internship are
+            encouraged to get in touch.
           </p>
         </div>
         <address>
@@ -1471,17 +1423,17 @@
           <span data-lang="en">Email: <a href="mailto:all_zzw@163.com">all_zzw@163.com</a></span>
         </address>
         <div class="external-links" data-lang="zh">
-          <h3>常用外部链接</h3>
+          <h3>相关链接</h3>
           <div class="external-link-grid">
             <a href="http://124.160.166.238:8088/Home" target="_blank" rel="noreferrer">宁大附一中心实验室</a>
             <a href="https://medicine.nbu.edu.cn/" target="_blank" rel="noreferrer">宁波大学医学部</a>
             <a href="https://chem.nju.edu.cn/" target="_blank" rel="noreferrer">南京大学化学学院</a>
             <a href="https://swxy.zwu.edu.cn/" target="_blank" rel="noreferrer">浙江万里学院生物与环境学院</a>
-            <a href="https://www.strath.ac.uk/engineering/biomedicalengineering/" target="_blank" rel="noreferrer">University of Strathclyde Department Biomedical Engineering</a>
+            <a href="https://www.strath.ac.uk/engineering/biomedicalengineering/" target="_blank" rel="noreferrer">英国思克莱德大学生物医学工程系</a>
           </div>
         </div>
         <div class="external-links" data-lang="en">
-          <h3>Useful Links</h3>
+          <h3>Links</h3>
           <div class="external-link-grid">
             <a href="http://124.160.166.238:8088/Home" target="_blank" rel="noreferrer">Central Laboratory, First Affiliated Hospital of Ningbo University</a>
             <a href="https://medicine.nbu.edu.cn/" target="_blank" rel="noreferrer">Ningbo University Health Science Center</a>
@@ -1494,12 +1446,12 @@
     </main>
 
     <footer class="site-footer">
-      <p data-lang="zh">© <span id="year">2026</span> 张壮伟 学术主页</p>
-      <p data-lang="en">© <span id="year-en">2026</span> Zhuangwei Zhang Academic Homepage</p>
+      <p data-lang="zh">© <span id="year">2026</span> 张壮伟 · M-Group</p>
+      <p data-lang="en">© <span id="year-en">2026</span> Zhuangwei Zhang · M-Group</p>
       <a href="#top" data-lang="zh">回到顶部</a>
       <a href="#top" data-lang="en">Back to top</a>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20261030b"></script>
   </body>
 </html>
