@@ -1181,6 +1181,10 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
   grid-column: span 2;
 }
 
+.team-grid > .team-card:nth-child(6) {
+  grid-column: span 6;
+}
+
 .event-card {
   display: grid;
   gap: 8px;
