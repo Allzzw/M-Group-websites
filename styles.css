@@ -1171,18 +1171,7 @@ html[data-current-lang="en"] .publication-divider[data-lang="en"] {
 
 .team-grid > .team-card {
   padding: 20px;
-}
-
-.team-grid > .team-card:nth-child(-n + 2) {
-  grid-column: span 3;
-}
-
-.team-grid > .team-card:nth-child(n + 3):nth-child(-n + 5) {
   grid-column: span 2;
-}
-
-.team-grid > .team-card:nth-child(6) {
-  grid-column: span 6;
 }
 
 .event-card {
